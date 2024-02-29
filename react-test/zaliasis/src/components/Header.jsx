@@ -1,10 +1,14 @@
-import '../styles/Header.css'
+import '../styles/Header.css';
 
 function Header() {
   return (
     <>
-      <h1>Žalioji knyga</h1>
-        <p></p>
+    <div className='HeaderTextContainer'>
+        <div className='HeaderTexts'>
+          <h1>Žalioji knyga</h1>
+          <p>Kažka čia kieto ir aktualaus apie tinklapį parašysiu</p>
+        </div>
+    </div>
     </>
   )
 }
