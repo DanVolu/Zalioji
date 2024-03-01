@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-.Navbar {
+.Navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,11 +14,11 @@ body {
     z-index: 1000;
 }
   
-.Navbar li {
+.Navbar ul li {
     float: left;
 }
   
-.Navbar li a {
+.Navbar ul li a {
     background-color: rgba(0, 0, 0, 0.75);
     display: block;
     color: white;
@@ -27,8 +27,68 @@ body {
     text-decoration: none;
 }
   
-.Navbar li a:hover {
+.Navbar ul li a:hover {
     background-color: #111;
 }
   
 
+.Dropdown {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .Navspread {
+        display: none;
+    }
+
+    .Dropdown {
+        display: block;
+    }
+}
+body {
+    margin: 0;
+}
+
+.Navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+  
+.Navbar ul li {
+    float: left;
+}
+  
+.Navbar ul li a {
+    background-color: rgba(0, 0, 0, 0.75);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.9rem 1rem;
+    text-decoration: none;
+}
+  
+.Navbar ul li a:hover {
+    background-color: #111;
+}
+  
+
+.Dropdown {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .Navspread {
+        display: none;
+    }
+
+    .Dropdown {
+        display: block;
+    }
+}

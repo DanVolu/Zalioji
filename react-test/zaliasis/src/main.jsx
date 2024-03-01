@@ -2,12 +2,16 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Header from './components/Header.jsx'
 import Navbar from './components/Navbar.jsx'
+import FirstSection from './components/categories/FirstSection.jsx'
 import './styles/Navbar.css'
+import './styles/Header.css'
+import './styles/categories/FirstSection.css'
 import './styles/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Navbar />
     <Header />
+    <FirstSection />
   </React.StrictMode>,
 )
