@@ -19,54 +19,7 @@ body {
 }
   
 .Navbar ul li a {
-    background-color: rgba(0, 0, 0, 0.75);
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 0.9rem 1rem;
-    text-decoration: none;
-}
-  
-.Navbar ul li a:hover {
-    background-color: #111;
-}
-  
 
-.Dropdown {
-    display: none;
-}
-
-@media (max-width: 768px) {
-    .Navspread {
-        display: none;
-    }
-
-    .Dropdown {
-        display: block;
-    }
-}
-body {
-    margin: 0;
-}
-
-.Navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: rgba(0, 0, 0, 0.75);
-    overflow: hidden;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-}
-  
-.Navbar ul li {
-    float: left;
-}
-  
-.Navbar ul li a {
-    background-color: rgba(0, 0, 0, 0.75);
     display: block;
     color: white;
     text-align: center;

@@ -1,0 +1,20 @@
+.FirstSectionContainer {
+    display: flex;
+}
+
+
+
+.FirstFirstSectionCategory,
+.SecondFirstSectionCategory {
+    flex: 1;
+}
+
+
+
+
+.FirstFirstSectionCategory img,
+.SecondFirstSectionCategory img {
+    width: 100%;
+    display: block;
+}
+  
