@@ -11,7 +11,6 @@ function FirstSection() {
             <h3>Praplėsk žinias</h3>
             <img className='OwlImage' src={OwlImage} alt="Peleda"/>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mi ipsum faucibus vitae aliquet.</p>
-
         </div>
 
         <div className='SecondFirstSectionCategory'>
