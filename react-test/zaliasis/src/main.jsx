@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom/client'
 import Header from './components/Header.jsx'
 import Navbar from './components/Navbar.jsx'
 import FirstSection from './components/categories/FirstSection.jsx'
+import SecondSection from './components/categories/SecondSection.jsx'
 import './styles/Navbar.css'
 import './styles/Header.css'
 import './styles/categories/FirstSection.css'
+import './styles/categories/SecondSection.css'
 import './styles/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -13,5 +15,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Navbar />
     <Header />
     <FirstSection />
+    <SecondSection />
   </React.StrictMode>,
 )

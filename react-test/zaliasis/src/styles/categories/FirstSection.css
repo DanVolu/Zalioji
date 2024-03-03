@@ -7,7 +7,8 @@
 .SecondFirstSectionCategory {
     position: relative;
     flex: 1;
-    border: 1px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
     background-color: white;
 }
 
@@ -63,38 +64,39 @@
     width: 50%;
     top: 55%;
     margin-left: 5rem;
-    padding: 0rem 1rem 2rem 2rem;
+    padding: 0rem 1rem 2rem 1.5rem;
     border-radius: 0.2rem;
 }
-
-
 
 
 .SecondFirstSectionCategory p,
 .SecondFirstSectionCategory h2,
 .SecondFirstSectionCategory h3 {
-    color: white;
+    margin-top: 0.8rem;
     text-align: left;
 }
 
 .SecondFirstSectionCategory p {
-    padding-top: 0.3rem;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.75);
     font-weight: 400;
     font-size: 1.1rem;
     word-spacing: 0.1rem;
+    width: 95%;
 }
 
 .SecondFirstSectionCategory h2 {
     text-transform: uppercase;
     font-size: 1.6rem;
-    padding-left: 1rem;
+    padding: 0 0 0 1rem;
     font-weight: 600;
+    color: white;
 }
 
 .SecondFirstSectionCategory h3 {
+    color: rgba(255, 255, 255, 0.75);
     text-transform: uppercase;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-top: -1rem;
-    font-weight: 500;
+    border-bottom: 0.2rem solid ;
+    width: 9rem;
 }
