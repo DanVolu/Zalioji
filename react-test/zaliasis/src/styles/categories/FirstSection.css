@@ -1,5 +1,6 @@
 .FirstSectionContainer {
     display: flex;
+    position: relative;
 }
 
 .FirstFirstSectionCategory,
@@ -11,13 +12,16 @@
 }
 
 .FirstFirstSectionCategory img {
-    width: 100%;
+    width: 120%;
     display: block;
     object-fit: cover;
-    height: 35rem;
+    height: 30rem;
+    margin: 0 -10%;
     position: relative;
-    top: -7rem;
+    top: -6rem;
+    max-width: none;
 }
+
 
 .SecondFirstSectionCategory img {
     width: 100%;
@@ -28,7 +32,7 @@
 
 .FirstFirstSectionCategory p {
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 50%;
     width: 75%;
     transform: translate(-50%, -50%);
@@ -50,4 +54,47 @@
     font-size: 1.5rem;
     font-weight: 500;
     padding-top: -11rem;
+}
+
+
+.DescriptionContainer {
+    position: absolute;
+    background-color: rgba(69, 67, 50, 1);
+    width: 50%;
+    top: 55%;
+    margin-left: 5rem;
+    padding: 0rem 1rem 2rem 2rem;
+    border-radius: 0.2rem;
+}
+
+
+
+
+.SecondFirstSectionCategory p,
+.SecondFirstSectionCategory h2,
+.SecondFirstSectionCategory h3 {
+    color: white;
+    text-align: left;
+}
+
+.SecondFirstSectionCategory p {
+    padding-top: 0.3rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    font-size: 1.1rem;
+    word-spacing: 0.1rem;
+}
+
+.SecondFirstSectionCategory h2 {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    padding-left: 1rem;
+    font-weight: 600;
+}
+
+.SecondFirstSectionCategory h3 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-top: -1rem;
+    font-weight: 500;
 }
