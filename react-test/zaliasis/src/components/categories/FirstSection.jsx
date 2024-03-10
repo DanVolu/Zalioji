@@ -1,6 +1,6 @@
 import '../../styles/categories/FirstSection.css';
-import OwlImage from '../../images/oul1.png';
-import LynxImage from '../../images/lynx.jpg';
+import OwlImage from '../../assets/images/oul1.png';
+import LynxImage from '../../assets/images/lynx.jpg';
 
 function FirstSection() {
   return (
@@ -18,7 +18,10 @@ function FirstSection() {
               <div className='DescriptionContainer'>  
                 <h2>Dangaus stebėtojai</h2>
                 <h3>Praplėsk žinias</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mi ipsum faucibus vitae aliquet.</p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br></br><br></br>
+                    Ullamcorper a lacus vestibulum sed arcu non odio euismod.
+                  </p>
               </div>
         </div>
 

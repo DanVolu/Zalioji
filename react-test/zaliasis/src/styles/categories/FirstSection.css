@@ -1,6 +1,7 @@
 .FirstSectionContainer {
     display: flex;
     position: relative;
+    background-color: white;
 }
 
 .FirstFirstSectionCategory,
@@ -9,7 +10,7 @@
     flex: 1;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
-    background-color: white;
+    
 }
 
 .FirstFirstSectionCategory img {
@@ -62,10 +63,10 @@
     position: absolute;
     background-color: rgba(69, 67, 50, 1);
     width: 50%;
-    top: 55%;
-    margin-left: 5rem;
+    top: 50%;
+    margin-left: 3rem;
     padding: 0rem 1rem 2rem 1.5rem;
-    border-radius: 0.2rem;
+    border-radius: 0.3rem;
 }
 
 
@@ -86,17 +87,18 @@
 
 .SecondFirstSectionCategory h2 {
     text-transform: uppercase;
-    font-size: 1.6rem;
+    font-size: 2rem;
     padding: 0 0 0 1rem;
     font-weight: 600;
     color: white;
 }
 
 .SecondFirstSectionCategory h3 {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.80);
     text-transform: uppercase;
-    font-size: 1rem;
-    margin-top: -1rem;
+    font-size: 1.5rem;
+    margin-top: -1.5rem;
     border-bottom: 0.2rem solid ;
-    width: 9rem;
+    width: 13rem;
+    font-weight: 400;
 }

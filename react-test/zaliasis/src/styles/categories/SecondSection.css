@@ -1,0 +1,30 @@
+.SecondSectionContainer {
+    display: flex;
+    position: relative;
+}
+
+
+.SecondSectionContainer img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    height: 50rem;
+}
+
+.SecondDescriptionContainer {
+    position: absolute;
+    background-color: rgba(69, 67, 50, 1);
+    width: 60%;
+    top: 37rem;
+    right: 0;
+    margin-right: 3rem;
+    padding: 0rem 1rem 1rem 1.5rem;
+    border-radius: 0.2rem;
+}
+
+
+.SecondFirstSectionCategory > h2:first-of-type {
+    position: absolute;
+    top: 10rem;
+    left: 15rem;    
+}

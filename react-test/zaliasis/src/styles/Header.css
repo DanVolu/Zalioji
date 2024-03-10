@@ -21,6 +21,7 @@
   color: white;
   line-height: 0.8;
   white-space: nowrap;
+  text-transform: uppercase;
 }
 
 .HeaderTexts p {
