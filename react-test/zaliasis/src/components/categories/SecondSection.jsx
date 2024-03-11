@@ -8,7 +8,8 @@ function SecondSection() {
       <div className='SecondSectionContainer'>
           <div className='SecondFirstSectionCategory'>
                 <img className='European' src={Aquatic} alt="Europine" />
-                  <h2>Dangaus stebėtojai</h2>
+                  <h2 className='splitEuropeanFirst'>Dangaus</h2>
+                  <h2 className='splitEuropeanSecond'>stebėtojai</h2>
                   <div className='SecondDescriptionContainer'>  
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br></br><br></br>
@@ -19,10 +20,13 @@ function SecondSection() {
 
         <div className='SecondFirstSectionCategory'>
             <img className='Invasive' src={Invasive} alt="Invazine" />
-              <div className='DescriptionContainer'>  
-                <h2>Dangaus stebėtojai</h2>
-                <h3>Praplėsk žinias</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mi ipsum faucibus vitae aliquet.</p>
+              <h2 className='invasiveNeutral'>Dangaus</h2>
+              <h2 className='invasiveNeutral2'> stebėtojai</h2>
+              <h2 className='invasiveFlipped'>Dangaus</h2>
+              <h2 className='invasiveFlipped2'>stebėtojai</h2>
+
+              <div className='invasiveDescriptionContainer'>  
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mi ipsum faucibus vitae aliquet.<br></br><br></br> Nunc mi ipsum faucibus vitae aliquet.  </p>
               </div>
         </div>
 
