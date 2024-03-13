@@ -9,7 +9,8 @@ function FirstSection() {
         <div className='FirstFirstSectionCategory'>
           <h2>Dangaus stebėtojai</h2>
             <h3>Praplėsk žinias</h3>
-            <img className='OwlImage' src={OwlImage} alt="Peleda"/>
+            <img className='OwlImage' src={OwlImage} alt="Peleda"/> 
+            {/* butinai pataisyk width sito img */}
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mi ipsum faucibus vitae aliquet.</p>
         </div>
 
