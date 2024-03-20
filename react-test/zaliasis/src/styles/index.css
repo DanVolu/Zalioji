@@ -12,3 +12,20 @@ h1, h2, h3 {
 body {
   background-color: rgba(69, 67, 50, 1);
 }
+
+::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+::-webkit-scrollbar-track {
+  background: hsla(0, 0%, 6%, 0.75  ); 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: rgb(126, 123, 91); 
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
