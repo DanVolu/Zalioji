@@ -1,11 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/Navbar.css'
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Nav, Navbar } from 'react-bootstrap';
 
 function BasicExample() {
   return (
     <Navbar expand="lg" className="Navbar">
-      <Container>
         <Navbar href="#home" className='navMain'>Žalioji knyga</Navbar>
         <Navbar.Toggle/>
         <Navbar.Collapse>
@@ -16,7 +15,6 @@ function BasicExample() {
             <Nav href="#link" className='navLinks'>Labdaros</Nav>
           </Nav>
         </Navbar.Collapse>
-      </Container>
     </Navbar>
   );
 }

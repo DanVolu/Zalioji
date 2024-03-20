@@ -154,7 +154,18 @@
         font-size: 2em;
 
     }
+
+    .SecondDescriptionContainer {
+        width: 80%;
+        top: 33rem;
+    }
+    .SecondDescriptionContainer p {
+        font-size: 1em;
+    }
+    
 }
+
+
 
 
 .invasiveDescriptionContainer{
@@ -206,4 +217,59 @@
         position: relative;
         background-color: white;
     }    
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+.invasiveNeutral {
+    font-size: 2.5em !important;
+    position: absolute !important;
+    top: 22rem !important;
+    left: 1.5rem !important;
+    width: 10rem !important;
+
+}
+
+.invasiveNeutral2 {
+    font-size: 2.5em !important;
+    position: absolute !important;
+    top: 26rem !important;
+    left: 6rem !important;
+    width: 10rem !important;
+}
+
+.invasiveFlipped {
+    font-size: 2.5em !important;
+    position: absolute !important;
+    top: 24rem !important;
+    left: 1.5rem !important;
+    transform: rotate(180deg) scaleX(-1) !important;
+    color: rgba(255, 255, 255, 0.2) !important;
+    width: 10rem !important;
+
+}
+
+
+.invasiveFlipped2 {
+    font-size: 2.5em !important;
+    position: absolute !important;
+    top: 28rem !important;
+    left: 6rem !important;
+    transform: rotate(180deg) scaleX(-1) !important;
+    color: rgba(255, 255, 255, 0.2) !important;
+    width: 10rem !important;
+
+}
+
+.invasiveDescriptionContainer{
+    position: absolute;
+    width: 90%;
+    top: 32rem;
+    right: 1;
+    margin-left: 3rem;
+    padding: 0rem 1rem 1rem 1.5rem;
+    border-radius: 0.2rem;
+}
+
 }
