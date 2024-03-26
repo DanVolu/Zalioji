@@ -6,13 +6,13 @@ function BasicExample() {
   return (
     <Navbar expand="lg" className="Navbar">
         <Navbar href="#home" className='navMain'>Žalioji knyga</Navbar>
-        <Navbar.Toggle/>
+        <Navbar.Toggle className="bg-light" />
         <Navbar.Collapse>
           <Nav className="me-auto">
-            <Nav href="#home" className='navLinks'>Visi gyvūnai</Nav>
-            <Nav href="#link" className='navLinks'>Įstatymai</Nav>
-            <Nav href="#link" className='navLinks'>Apie</Nav>
-            <Nav href="#link" className='navLinks'>Labdaros</Nav>
+            <Nav className='navLinks'><a href="#home">Visi gyvūnai</a></Nav>
+            <Nav className='navLinks'><a href="#link">Įstatymai</a></Nav>
+            <Nav className='navLinks'><a href="#link">Apie</a></Nav>
+            <Nav className='navLinks'><a href="#link">Labdaros</a></Nav>
           </Nav>
         </Navbar.Collapse>
     </Navbar>

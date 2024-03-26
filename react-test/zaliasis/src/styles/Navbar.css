@@ -62,3 +62,17 @@
         padding: 1rem;
     }
 }
+
+
+.navLinks a {
+    text-decoration: none;
+    color: white;
+    opacity: 1; 
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+.navLinks a:hover {
+    -webkit-transform: translateY(-0.2rem);
+    transform: translateY(-0.16rem);
+    opacity: 0.75;
+}
