@@ -1,0 +1,17 @@
+.animalBook {
+    background-color: rgba(69, 106, 77, 1);
+    padding: 2rem;
+    margin-bottom: 5rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animalBookList {
+    background-color: rgba(255, 239, 215, 1);
+    width: 95%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 1rem 1rem 1rem 1rem;
+}

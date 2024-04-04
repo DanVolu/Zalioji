@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/Navbar.css'
 import { Nav, Navbar } from 'react-bootstrap';
 
-function BasicExample() {
+function NavigationBar() {
   return (
     <Navbar expand="lg" className="Navbar">
         <Navbar href="#home" className='navMain'>Žalioji knyga</Navbar>
@@ -19,4 +19,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default NavigationBar;

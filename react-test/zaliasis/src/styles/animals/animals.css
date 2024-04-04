@@ -1,0 +1,79 @@
+.regionFilter{
+    padding: 2rem;
+}
+
+.regionSelect {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 20rem;
+    background-color: rgba(0, 0, 0, 0.50) !important;
+    border: 1px solid rgba(0, 0, 0, 0.25) !important;
+}
+
+.regionSelect:hover {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    border: 1px solid rgba(0, 0, 0, 0.25) !important;
+}
+
+.regionSelect:active {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    border: 1px solid rgba(0, 0, 0, 0.25) !important;
+    color: white !important;
+}
+
+.regionMenu{
+    width: 20rem;
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    border: 1px solid rgba(0, 0, 0, 0.25) !important;
+}
+
+.regionMenuChoices:hover{
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.animalButtons{
+    padding: 0.5rem;
+    color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.individualAnimalButtons{
+    padding: 0.5rem;
+    width: 6.5rem;
+    background-color: rgba(0, 0, 0, 0.50) !important;
+}
+
+.individualAnimalButtons:hover{
+    background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.individualAnimalButtons:active{
+    background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.animalClickable {
+    cursor: pointer;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.animalClickable img {
+    width: 80%;
+    height: auto;
+}
+
+.animalClickable.expanded {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70vw;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 9999;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
