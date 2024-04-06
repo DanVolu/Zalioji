@@ -33,19 +33,19 @@ function AnimalList() {
             <div className='animalBookList'>
               <Row>
                 {(selectedRegion === 'all' || selectedRegion === 'kaunas') && (selectedCategory === 'all' || selectedCategory === 'Siltakraujis') ? (
-                  <Col lg={6}><Lusis /></Col>
+                  <Col lg={6} className="bookItem"><Lusis /></Col>
                 ) : null}
                 {(selectedRegion === 'all' || selectedRegion === 'siauliai') && (selectedCategory === 'all' || selectedCategory === 'Invazinis') ? (
-                  <Col lg={6}><RudasisLokys /></Col>
+                  <Col lg={6}  className="bookItem"><RudasisLokys /></Col>
                 ) : null}
               </Row>
 
               <Row>
                 {(selectedRegion === 'all' || selectedRegion === 'kaunas') && (selectedCategory === 'all' || selectedCategory === 'Siltakraujis') ? (
-                  <Col lg={6}><Lusis /></Col>
+                  <Col lg={6}  className="bookItem"><Lusis /></Col>
                 ) : null}
                 {(selectedRegion === 'all' || selectedRegion === 'siauliai') && (selectedCategory === 'all' || selectedCategory === 'Invazinis') ? (
-                  <Col lg={6}><RudasisLokys /></Col>
+                  <Col lg={6}  className="bookItem"><RudasisLokys /></Col>
                 ) : null}
               </Row>
             </div>
@@ -56,19 +56,19 @@ function AnimalList() {
             <div className='animalBookList'>
               <Row>
                 {(selectedRegion === 'all' || selectedRegion === 'kaunas') && (selectedCategory === 'all' || selectedCategory === 'Siltakraujis') ? (
-                  <Col lg={6}><Lusis /></Col>
+                  <Col lg={6}  className="bookItem"><Lusis /></Col>
                 ) : null}
                 {(selectedRegion === 'all' || selectedRegion === 'siauliai') && (selectedCategory === 'all' || selectedCategory === 'Invazinis') ? (
-                  <Col lg={6}><RudasisLokys /></Col>
+                  <Col lg={6}  className="bookItem"><RudasisLokys /></Col>
                 ) : null}
               </Row>
 
               <Row>
                 {(selectedRegion === 'all' || selectedRegion === 'kaunas') && (selectedCategory === 'all' || selectedCategory === 'Siltakraujis') ? (
-                  <Col lg={6}><Lusis /></Col>
+                  <Col lg={6}  className="bookItem"><Lusis /></Col>
                 ) : null}
                 {(selectedRegion === 'all' || selectedRegion === 'siauliai') && (selectedCategory === 'all' || selectedCategory === 'Invazinis') ? (
-                  <Col lg={6}><RudasisLokys /></Col>
+                  <Col lg={6}  className="bookItem"><RudasisLokys /></Col>
                 ) : null}
               </Row>
             </div>

@@ -5,7 +5,7 @@
 .regionSelect {
     margin: 0.5rem;
     padding: 0.5rem;
-    width: 20rem;
+    width: 22rem;
     background-color: rgba(0, 0, 0, 0.50) !important;
     border: 1px solid rgba(0, 0, 0, 0.25) !important;
 }
@@ -22,7 +22,7 @@
 }
 
 .regionMenu{
-    width: 20rem;
+    width: 22rem;
     color: white !important;
     background-color: rgba(0, 0, 0, 0.75) !important;
     border: 1px solid rgba(0, 0, 0, 0.25) !important;
@@ -63,6 +63,35 @@
     height: auto;
 }
 
+.animalClickable h2 {
+    text-align: left;
+    padding-left: 3.5rem;
+    color: rgba(91, 78, 58, 1);
+    position: relative;
+    width: 12rem;
+    text-transform: uppercase;
+}
+
+.animalClickable h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: calc(100% - 5rem); 
+    border-bottom: 4px solid rgba(91, 78, 58, 1);
+    margin-left: 3.7rem;
+}
+
+
+.bookItemAlign {
+    display: flex;
+    align-items: baseline;
+}
+
+.bookItemAlign p {
+    margin: 0rem 0rem 0rem 3rem; 
+}
+
 .animalClickable.expanded {
     position: fixed;
     top: 50%;
@@ -76,4 +105,3 @@
     box-sizing: border-box;
     overflow-y: auto;
 }
-

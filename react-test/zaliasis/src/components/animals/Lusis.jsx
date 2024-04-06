@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Lynx from "../../assets/images/lynx.jpg";
+import Category4 from "../../assets/images/category4.jpg"
 
 function Lusis() {
   const [Lusis, setCardState] = useState({
@@ -8,7 +9,8 @@ function Lusis() {
     Region: "Kaunas",
     Image: Lynx,
     Expanded: false,
-    Category: "Siltakraujis"
+    Category: "Siltakraujis",
+    Threat: Category4
   });
 
   const toggleExpanded = () => {
@@ -23,12 +25,19 @@ function Lusis() {
   return (
     <div className={`animalClickable ${Lusis.Expanded ? 'expanded' : ''}`} onClick={toggleExpanded}>
       {!Lusis.Expanded ? (
-        <>          
+        <>
+          <div className="bookItemAlign">
+            <h2>{Lusis.Name}</h2>
+            <p>(lot. Lynx lynx)</p>        
+          </div>
           <img
             src={Lusis.Image}
             alt={Lusis.Name}
           />
-          <p>{Lusis.Name}</p>
+          <img 
+            src={Lusis.Threat}
+            alt="Category 4 threat"
+          />
 
         </>
       ) : (
@@ -37,7 +46,7 @@ function Lusis() {
             src={Lusis.Image}
             alt={Lusis.Name}
           />
-          <p>{Lusis.Name}</p>
+          <h2>{Lusis.Name}</h2>
           <p>{Lusis.Region}</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

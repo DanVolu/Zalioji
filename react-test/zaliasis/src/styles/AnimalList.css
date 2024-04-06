@@ -1,6 +1,6 @@
 .animalBook {
     background-color: rgba(69, 106, 77, 1);
-    padding: 2rem;
+    padding: 1.5rem 1rem 1.5rem 1rem;
     margin-bottom: 5rem;
     border-radius: 5px;
     display: flex;
@@ -13,5 +13,14 @@
     width: 95%;
     text-align: center;
     border-radius: 5px;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    margin: 0.5rem;
+}
+
+.bookItem {
+    background-color:rgba(255, 226, 182, 1);
+    border-radius: 5px;
+    padding: 0rem 1rem 1rem 0;
+    border: 1rem solid white;
 }
