@@ -42,14 +42,18 @@ function Lusis() {
         </>
       ) : (
         <>
-          <img
-            src={Lusis.Image}
-            alt={Lusis.Name}
-          />
-          <h2>{Lusis.Name}</h2>
-          <p>{Lusis.Region}</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div className="bookItemAlign">
+              <h3>{Lusis.Name}</h3>
+              <p>(lot. Lynx lynx)</p>    
+            </div>
+              <img
+                src={Lusis.Image}
+                alt={Lusis.Name}
+              />
+              <p>{Lusis.Region}</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
         </>
       )}
     </div>
