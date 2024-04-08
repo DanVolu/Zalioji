@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import RudasisLokys from './animals/RudasisLokys';
+import Pavyzdys from './animals/Pavyzdys';
 import Lusis from './animals/Lusis';
 import RegionFilter from './animals/RegionFilter';
 import { Container, Row, Col, Carousel } from 'react-bootstrap';
@@ -32,20 +32,20 @@ function AnimalList() {
           <Container className='animalBook'>
             <div className='animalBookList'>
               <Row>
-                {(selectedRegion === 'all' || selectedRegion === 'kaunas') && (selectedCategory === 'all' || selectedCategory === 'Siltakraujis') ? (
+                {(selectedRegion === 'all' || selectedRegion === 'Kaunas') && (selectedCategory === 'all' || selectedCategory === 'Žemės') ? (
                   <Col lg={6} className="bookItem"><Lusis /></Col>
                 ) : null}
-                {(selectedRegion === 'all' || selectedRegion === 'siauliai') && (selectedCategory === 'all' || selectedCategory === 'Invazinis') ? (
-                  <Col lg={6}  className="bookItem"><RudasisLokys /></Col>
+                {(selectedRegion === 'all' || selectedRegion === 'Šiauliai') && (selectedCategory === 'all' || selectedCategory === 'Invaziniai') ? (
+                  <Col lg={6}  className="bookItem"><Pavyzdys /></Col>
                 ) : null}
               </Row>
 
               <Row>
-                {(selectedRegion === 'all' || selectedRegion === 'kaunas') && (selectedCategory === 'all' || selectedCategory === 'Siltakraujis') ? (
+                {(selectedRegion === 'all' || selectedRegion === 'Kaunas') && (selectedCategory === 'all' || selectedCategory === 'Žemės') ? (
                   <Col lg={6}  className="bookItem"><Lusis /></Col>
                 ) : null}
-                {(selectedRegion === 'all' || selectedRegion === 'siauliai') && (selectedCategory === 'all' || selectedCategory === 'Invazinis') ? (
-                  <Col lg={6}  className="bookItem"><RudasisLokys /></Col>
+                {(selectedRegion === 'all' || selectedRegion === 'Šiauliai') && (selectedCategory === 'all' || selectedCategory === 'Invaziniai') ? (
+                  <Col lg={6}  className="bookItem"><Pavyzdys /></Col>
                 ) : null}
               </Row>
             </div>
@@ -55,20 +55,20 @@ function AnimalList() {
           <Container className='animalBook'>
             <div className='animalBookList'>
               <Row>
-                {(selectedRegion === 'all' || selectedRegion === 'kaunas') && (selectedCategory === 'all' || selectedCategory === 'Siltakraujis') ? (
+                {(selectedRegion === 'all' || selectedRegion === 'Kaunas') && (selectedCategory === 'all' || selectedCategory === 'Žemės') ? (
                   <Col lg={6}  className="bookItem"><Lusis /></Col>
                 ) : null}
-                {(selectedRegion === 'all' || selectedRegion === 'siauliai') && (selectedCategory === 'all' || selectedCategory === 'Invazinis') ? (
-                  <Col lg={6}  className="bookItem"><RudasisLokys /></Col>
+                {(selectedRegion === 'all' || selectedRegion === 'Šiauliai') && (selectedCategory === 'all' || selectedCategory === 'Invaziniai') ? (
+                  <Col lg={6}  className="bookItem"><Pavyzdys /></Col>
                 ) : null}
               </Row>
 
               <Row>
-                {(selectedRegion === 'all' || selectedRegion === 'kaunas') && (selectedCategory === 'all' || selectedCategory === 'Siltakraujis') ? (
+                {(selectedRegion === 'all' || selectedRegion === 'Kaunas') && (selectedCategory === 'all' || selectedCategory === 'Žemės') ? (
                   <Col lg={6}  className="bookItem"><Lusis /></Col>
                 ) : null}
-                {(selectedRegion === 'all' || selectedRegion === 'siauliai') && (selectedCategory === 'all' || selectedCategory === 'Invazinis') ? (
-                  <Col lg={6}  className="bookItem"><RudasisLokys /></Col>
+                {(selectedRegion === 'all' || selectedRegion === 'Šiauliai') && (selectedCategory === 'all' || selectedCategory === 'Invaziniai') ? (
+                  <Col lg={6}  className="bookItem"><Pavyzdys /></Col>
                 ) : null}
               </Row>
             </div>

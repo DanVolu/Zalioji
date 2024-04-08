@@ -2,14 +2,14 @@ import { useState } from "react";
 import CardImage from "../../assets/images/CardImage.jpg";
 
 
-function RudasisLokys() {
+function Pavyzdys() {
   const [rudasisLokys, setCardState] = useState({
     Name: "Rudasis lokys",
     Status: "2/5",
     Region: "Šiauliai",
     Image: CardImage,
     Expanded: false,
-    Category: "Invazinis"
+    Category: "Invaziniai"
   });
 
   const toggleExpanded = () => {
@@ -47,4 +47,4 @@ function RudasisLokys() {
   );
 }
 
-export default RudasisLokys;
+export default Pavyzdys;
