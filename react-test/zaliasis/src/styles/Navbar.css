@@ -18,8 +18,14 @@
     transform: translateX(100%);
     transition: opacity 0.5s, transform 0.5s;
     animation: slideInFromRight 0.3s ease 0.1s forwards;
-
 }
+
+.navMain:hover {
+    -webkit-transform: translateY(-0.2rem);
+    transform: translateY(-0.16rem);
+    opacity: 0.75;
+}
+
 
 .navLinks {
     padding-inline: 1.5rem;

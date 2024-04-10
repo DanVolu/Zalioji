@@ -1,0 +1,35 @@
+
+h5{
+    font-size: 2em;
+    margin:5rem 1rem 0rem 1rem;
+    color: rgba(255, 239, 215, 1);
+    padding: 1rem;
+    animation: slideUp 1s forwards;
+    transform: translateX(-50%);
+}
+
+
+.descriptionContainer {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 2rem;
+    margin-top: 1rem;
+    border: 1rem solid rgba(69, 67, 50, 1);
+    font-size: 1.1em;
+    animation: slideUp 1s forwards;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+
+@keyframes slideUp {
+  from {
+      transform: translateY(10%);
+  }
+  to {
+      transform: translateY(0);
+  }
+}
