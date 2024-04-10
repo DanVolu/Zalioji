@@ -26,7 +26,7 @@ function SecondSection() {
               <h2 className='invasiveFlipped2'>stebėtojai</h2>
 
               <div className='invasiveDescriptionContainer'>  
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mi ipsum faucibus vitae aliquet.<br></br><br></br> Nunc mi ipsum faucibus vitae aliquet.  </p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
               </div>
         </div>
 

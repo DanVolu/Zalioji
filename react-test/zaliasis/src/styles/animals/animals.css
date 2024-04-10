@@ -5,7 +5,7 @@
 .regionSelect {
     margin: 0.5rem;
     padding: 0.5rem;
-    width: 22rem;
+    width: 18rem;
     background-color: rgba(0, 0, 0, 0.50) !important;
     border: 1px solid rgba(0, 0, 0, 0.25) !important;
 }
@@ -22,7 +22,7 @@
 }
 
 .regionMenu{
-    width: 22rem;
+    width: 18rem;
     color: white !important;
     background-color: rgba(0, 0, 0, 0.75) !important;
     border: 1px solid rgba(0, 0, 0, 0.25) !important;
@@ -69,7 +69,7 @@
     color: rgba(91, 78, 58, 1);
     position: relative;
     width: 12rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .animalClickable h2::after {
@@ -89,7 +89,8 @@
 }
 
 .bookItemAlign p {
-    margin: 0rem 0rem 0rem 3rem; 
+    margin: 0rem 0rem 0rem 1rem; 
+    font-size: 1em;
 }
 
 .animalClickable.expanded {
@@ -136,12 +137,31 @@
     margin-top: 3rem;
 }
 
-.bookItemWrapper{
-    background-color: rgba(255, 226, 182, 1);
-    border: 1.5rem  solid  rgba(255, 226, 182, 1);
-    border: 3rem  solid  rgba(255, 239, 215, 1);
+@media only screen and (max-width: 400px) {
+    .animalClickable h3 {
+      text-align: left;
+      font-size: 2em;
+      margin: 0.5rem;
+    }
+
+    .Latin{
+
+        margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+      }
+  }
+  
+.bookParagraphs{
+    text-align: start;
+    padding: 3rem;
+    color: rgba(91, 78, 58, 1);
 }
 
-.bookItemWrapper img {
-    border: 3rem solid  rgba(255, 226, 182, 1);
+
+.bookParagraphs h4{
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+
+.bookParagraphs p{
+    font-size: 1em;
 }

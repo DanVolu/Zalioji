@@ -9,6 +9,7 @@ function Header() {
           {/* <img className='Lokys' src={lokysImage} alt="Lokys" /> */}
             <h1>Žalioji knyga</h1>
             <p>Kažka čia kieto ir aktualaus apie tinklapį parašysiu</p>
+            {/* <a>Go to Section</a> */}
         </div>
       </div>
     </>

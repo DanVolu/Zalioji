@@ -1,8 +1,8 @@
 # React + Vite
 
-Install node_modules (npm create vite@latest) for the page to work
+Install node_modules (npm install) for the page to work
+Added Bootstrap for easier responsiveness (most of the work is still modified by css)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
