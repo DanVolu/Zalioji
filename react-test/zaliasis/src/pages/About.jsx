@@ -10,6 +10,10 @@ function About() {
     <>
         <NavigationBar></NavigationBar>
         <Description></Description>
+
+        {/* www.raudonojiknyga.lt. */}
+        {/* https://www.vle.lt/ */}
+        {/* https://foter.com/cowboy-boot-lamp */}
     </>
   );
 }

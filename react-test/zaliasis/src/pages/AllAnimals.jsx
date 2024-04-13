@@ -2,7 +2,7 @@ import NavigationBar from '../components/NavigationBar.jsx'
 import '../styles/Navbar.css'
 import { Container, Row, Col } from 'react-bootstrap';
 import Lusis from '../components/animals/Lusis.jsx';
-import Pavyzdys from '../components/animals/Pavyzdys.jsx';
+import Pavyzdys from '../components/animals/Dormouse.jsx';
 
 function About() {
   return (

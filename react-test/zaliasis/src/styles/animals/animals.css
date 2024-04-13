@@ -59,32 +59,22 @@
 }
 
 .animalClickable img {
-    width: 80%;
+    width: 90%;
     height: auto;
 }
 
 .animalClickable h2 {
-    text-align: left;
-    padding-left: 3.5rem;
+    font-size: 2em;
+    text-align: center;
     color: rgba(91, 78, 58, 1);
     position: relative;
-    width: 12rem;
-    /* text-transform: uppercase; */
+    white-space: nowrap;
 }
 
-.animalClickable h2::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: calc(100% - 5rem); 
-    border-bottom: 4px solid rgba(91, 78, 58, 1);
-    margin-left: 3.7rem;
-}
 
 
 .bookItemAlign {
-    display: flex;
+    /* display: flex; */
     align-items: baseline;
 }
 
@@ -98,7 +88,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70vw;
+    width: 80vw;
     height: 70vh;    
     background-color: rgba(255, 239, 215, 1);
     border-radius: 5px;
@@ -108,24 +98,16 @@
 
 
 .animalClickable h3 {
-    margin: 1rem 1rem 1rem 15%;
-    text-align: left;
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
     color: rgba(91, 78, 58, 1);
-    font-size: 3em;
-    /* border: 1px solid black; */
+    font-size: 2em;
+    white-space: nowrap;
     position: relative;
-    width: 10rem;
 }
 
 
-.animalClickable h3::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: calc(100%); 
-    border-bottom: 4px solid rgba(91, 78, 58, 1);
-}
 
 .animalClickable img {
     border-radius: 5px;
@@ -133,22 +115,10 @@
 
 
 .Latin {
-    text-align: start;
-    margin-top: 3rem;
+    text-align: center;
+    margin: -0.5rem 0 2rem 0;
 }
 
-@media only screen and (max-width: 400px) {
-    .animalClickable h3 {
-      text-align: left;
-      font-size: 2em;
-      margin: 0.5rem;
-    }
-
-    .Latin{
-
-        margin: 0.5rem 0.5rem 0.5rem 0.5rem;
-      }
-  }
   
 .bookParagraphs{
     text-align: start;

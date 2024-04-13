@@ -41,10 +41,10 @@ function RegionFilter({ onSelectRegion, onSelectCategory }) {
           <Col lg={6} md={12}>
             <Row className="justify-content-center animalButtons">
               <Col lg={3} md={6} sm={6} xs={6} className="mb-2">
-                <Button className='bg-dark individualAnimalButtons' variant='dark' block onClick={() => handleCategorySelect('Oro')}>Oro</Button>
+                <Button className='bg-dark individualAnimalButtons' variant='dark' block onClick={() => handleCategorySelect('Paukščiai')}>Paukščiai</Button>
               </Col>
               <Col lg={3} md={6 } sm={6} xs={6} className="mb-2">
-                <Button className='bg-dark individualAnimalButtons' variant='dark' block onClick={() => handleCategorySelect('Žemės')}>Žemės</Button>
+                <Button className='bg-dark individualAnimalButtons' variant='dark' block onClick={() => handleCategorySelect('Žinduoliai')}>Žinduoliai</Button>
               </Col>
               <Col lg={3} md={6} sm={6} xs={6} className="mb-2">
                 <Button className='bg-dark individualAnimalButtons' variant='dark' block onClick={() => handleCategorySelect('Vandens')}>Vandens</Button>

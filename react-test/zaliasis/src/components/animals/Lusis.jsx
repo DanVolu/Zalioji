@@ -1,20 +1,24 @@
 import { useState } from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import Lynx from "../../assets/images/lynx.jpg";
-import LynxMap from "../../assets/images/LynxMap.png"
+import SecondLynx from "../../assets/images/Lynx/SecondLynx.jpg";
+import ThirdLynx from "../../assets/images/Lynx/ThirdLynx.jpg";
+import LusisRegion from '../../assets/images/Lynx/LusisRegion.jpg'
 import Category4 from "../../assets/images/category4.jpg"
 
 function Lusis() {
   const [Lusis, setCardState] = useState({
-    Name: "Lusis",
-    Status: "2/5",
-    Region: "Kaunas",
+    Name: "Lūšis",
+    Region: ["Klaipeda", "Vilnius", "Panevezys" , "Taurage"],
     Image: Lynx,
+    SecondaryImage: SecondLynx,
+    ThirdImage: ThirdLynx,
     Expanded: false,
-    Category: "Žemės",
+    Category: "Žinduoliai",
     Threat: Category4,
-    Characteristics: "cat like appearance weighing less than 50kg can be recognized by it's dotted orange fur n shi",
-    Sightings: LynxMap
+    Information: "Į Lietuvos raudonąją knygą rūšis įrašyta nuo 2000 metų. Minta pelėmis, pelėnais, stirnomis, elniais, bet dažniausiai puola silpnesnius, paliegusius žvėrelius. Žmogaus vengia. Lietuvoje nuolatos randama tik kai kuriuose miškų masyvuose (Biržų, Karšuvos, Žaliojoje giriose, Taujėnų - Užulėnio, Kulių, Latvijos pasienyje esančiuose Rokiškio r. ir keliuose kituose miškuose). Mėgstamos lankymosi vietos - spygliuočių ir mišrūs miškai su tankiu pomiškiu, išvartomis, pelkėtais plotais. Suaugę individai didžiąja metų dalį laikosi pavieniui. ",
+    Characteristics: "Kūno ilgis 80–110 cm, uodegos – 5–19 cm, masė 8–19 kg, kartais iki 30 kilogramų. Gelsvai ar pilkšvai rusva. Nugara ir šonai išmarginti tamsiomis dėmelėmis. Ausų viršūnėse yra ilgų plaukų šepetėliai, manoma, kad jie pagerina klausą. Kojos stiprios, ilgos. Letenos didelės, apaugusios plaukais. Uodega trumpa. Minta dažniausiai kiškiais, stirnomis, rečiau - paukščiais ir smulkiais graužikais. Medžioja miško pakraščiuose, laukymėse, atželiančiose kirtavietėse.",
+    Sightings: LusisRegion
   });
 
   const toggleExpanded = () => {
@@ -48,17 +52,15 @@ function Lusis() {
       ) : (
         <>
           <div className="bookItemWrapper">
-            <Container>
-              <Row>
-                <Col xs lg={2}><h3>{Lusis.Name}</h3></Col>
-                <Col><p className="Latin">(lot. Lynx lynx)</p></Col>
-              </Row>
-            </Container>
+
+            <h3>{Lusis.Name}</h3>
+            <p className="Latin">(lot. Lynx lynx)</p>
             <img
               src={Lusis.Image}
               alt={Lusis.Name}
             />
             <img
+              className="mt-3"
               src={Lusis.Threat}
               alt="Category 4 threat"
             />
@@ -69,12 +71,36 @@ function Lusis() {
           </Container>
 
           <div className="bookParagraphs">
-            <h4>Characteristics</h4>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius aliquam sequi numquam magni voluptatum, necessitatibus odio qui perferendis unde facilis, sint velit dolor ipsum, deserunt eligendi architecto quibusdam perspiciatis veniam?</p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, ipsum aliquid debitis minus commodi, illum, dignissimos animi cupiditate facere sed sit itaque officiis dicta ab. Officiis magnam ut explicabo est.</p>
-            <h4>Something else</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, ratione quaerat accusantium qui deleniti perferendis odit labore nulla modi consequatur quisquam distinctio. Perspiciatis accusamus sunt tempora adipisci quisquam fugiat officia.</p>
-              <p>{Lusis.Characteristics}</p>
+            <h4>Bendra informacija</h4>
+            <p>{Lusis.Information}</p>
+            <Container className="d-flex justify-content-center align-items-center">
+              <Row>
+                <Col>
+                  <img
+                    className="my-3"
+                    src={Lusis.SecondaryImage}
+                    alt="Snowy Lynx"
+                  />
+                </Col>
+              </Row>
+            </Container>
+
+            <h4>Kaip atpazinti</h4>
+            <p>{Lusis.Characteristics}</p>
+
+
+            <Container className="d-flex justify-content-center align-items-center">
+              <Row>
+                <Col>
+                <img
+                  className="my-3"
+                  src={Lusis.ThirdImage}
+                  alt="Tall Lynx"
+                />
+                </Col>
+              </Row>
+            </Container>
+
             <h4>Possible sighting locations</h4>
           </div>
           <img
