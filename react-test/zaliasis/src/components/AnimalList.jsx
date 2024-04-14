@@ -50,7 +50,7 @@ function AnimalList() {
   return (
     <>
       <RegionFilter onSelectRegion={handleRegionSelect} onSelectCategory={handleCategorySelect} />
-      <p style={{color:"white"}}>Naudoji telefona? Paversk horizontaliai geresniam matomumui</p>
+      <p style={{color:"white"}}>Naudoji telefona? Paversk horizontaliai geresniam matomumui.</p>
       <Carousel>
         <Carousel.Item>
           <Container className='animalBook'>

@@ -94,7 +94,7 @@ function Goldenrod() {
                                     <img
                                         className="my-3"
                                         src={Goldenrod.ThirdImage}
-                                        alt="Stoat after a succesful hunt"
+                                        alt="Goldenrod"
                                     />
                                 </Col>
                             </Row>

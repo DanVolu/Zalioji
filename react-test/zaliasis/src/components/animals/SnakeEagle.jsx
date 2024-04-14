@@ -55,7 +55,7 @@ function SnakeEagle() {
                     />
                     <img
                         src={SnakeEagle.Threat}
-                        alt="Category 4 threat"
+                        alt="Category 0 threat"
                     />
 
                 </>
@@ -73,7 +73,7 @@ function SnakeEagle() {
                         <img
                             className="mt-3"
                             src={SnakeEagle.Threat}
-                            alt="Category 4 threat"
+                            alt="Category 0 threat"
                         />
                     </div>
 
@@ -90,7 +90,7 @@ function SnakeEagle() {
                                     <img
                                         className="my-3"
                                         src={SnakeEagle.SecondaryImage}
-                                        alt="Postured Stoat"
+                                        alt="SnakeEagle"
                                     />
                                 </Col>
                             </Row>
@@ -109,7 +109,7 @@ function SnakeEagle() {
                                     <img
                                         className="my-3"
                                         src={SnakeEagle.ThirdImage}
-                                        alt="Stoat after a succesful hunt"
+                                        alt="SnakeEagle"
                                     />
                                 </Col>
                             </Row>

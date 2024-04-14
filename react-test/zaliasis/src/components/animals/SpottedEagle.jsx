@@ -54,7 +54,7 @@ function SpottedEagle() {
                     />
                     <img
                         src={SpottedEagle.Threat}
-                        alt="Category 4 threat"
+                        alt="Category 1 threat"
                     />
 
                 </>
@@ -72,7 +72,7 @@ function SpottedEagle() {
                         <img
                             className="mt-3"
                             src={SpottedEagle.Threat}
-                            alt="Category 4 threat"
+                            alt="Category 1 threat"
                         />
                     </div>
 
@@ -89,7 +89,7 @@ function SpottedEagle() {
                                     <img
                                         className="my-3"
                                         src={SpottedEagle.SecondaryImage}
-                                        alt="Postured Stoat"
+                                        alt="SpottedEagle"
                                     />
                                 </Col>
                             </Row>
@@ -105,7 +105,7 @@ function SpottedEagle() {
                                     <img
                                         className="my-3"
                                         src={SpottedEagle.ThirdImage}
-                                        alt="Stoat after a succesful hunt"
+                                        alt="SpottedEagle"
                                     />
                                 </Col>
                             </Row>

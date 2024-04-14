@@ -46,7 +46,7 @@ function AtlanticSturgeon() {
                     />
                     <img
                         src={AtlanticSturgeon.Threat}
-                        alt="Category 4 threat"
+                        alt="Category 0 threat"
                     />
 
                 </>
@@ -64,7 +64,7 @@ function AtlanticSturgeon() {
                         <img
                             className="mt-3"
                             src={AtlanticSturgeon.Threat}
-                            alt="Category 4 threat"
+                            alt="Category 0 threat"
                         />
                     </div>
 
@@ -81,7 +81,7 @@ function AtlanticSturgeon() {
                                     <img
                                         className="my-3"
                                         src={AtlanticSturgeon.SecondaryImage}
-                                        alt="Postured Stoat"
+                                        alt="AtlanticSturgeon"
                                     />
                                 </Col>
                             </Row>

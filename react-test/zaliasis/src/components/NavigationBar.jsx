@@ -10,7 +10,7 @@ function NavigationBar() {
         <Navbar.Toggle className="bg-light mx-2" />
         <Navbar.Collapse>
           <Nav className="me-auto">
-            <Nav className='navLinks'><Link to="/all">Visi gyvūnai</Link></Nav>
+            <Nav className='navLinks'><Link to="/all">Pilnas sąrašas</Link></Nav>
             <Nav className='navLinks'><a href="https://www.e-tar.lt/portal/legalAct.html?documentId=TAR.F2E76C93830A" target='_blank'>Įstatymai</a></Nav>
             <Nav className='navLinks '><Link to="/about">Apie</Link></Nav>
             <Nav className='navLinks'><Link to="/charities">Labdaros</Link></Nav>

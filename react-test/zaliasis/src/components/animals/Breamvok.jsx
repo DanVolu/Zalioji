@@ -46,7 +46,7 @@ function Breamvok() {
                     />
                     <img
                         src={Breamvok.Threat}
-                        alt="Category 4 threat"
+                        alt="Category 0 threat"
                     />
 
                 </>
@@ -65,7 +65,7 @@ function Breamvok() {
                         <img
                             className="mt-3"
                             src={Breamvok.Threat}
-                            alt="Category 4 threat"
+                            alt="Category 0 threat"
                         />
                     </div>
 
@@ -82,7 +82,7 @@ function Breamvok() {
                                     <img
                                         className="my-3"
                                         src={Breamvok.SecondaryImage}
-                                        alt="Postured Stoat"
+                                        alt="Breamvok"
                                     />
                                 </Col>
                             </Row>

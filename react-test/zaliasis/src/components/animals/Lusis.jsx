@@ -46,7 +46,7 @@ function Lusis() {
           />
           <img
             src={Lusis.Threat}
-            alt="Category 4 threat"
+            alt="Category 1 threat"
           />
 
         </>
@@ -64,7 +64,7 @@ function Lusis() {
             <img
               className="mt-3"
               src={Lusis.Threat}
-              alt="Category 4 threat"
+              alt="Category 1 threat"
             />
           </div>
 

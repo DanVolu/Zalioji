@@ -46,7 +46,7 @@ function Sturgeon() {
                     />
                     <img
                         src={Sturgeon.Threat}
-                        alt="Category 4 threat"
+                        alt="Category 2 threat"
                     />
 
                 </>
@@ -64,7 +64,7 @@ function Sturgeon() {
                         <img
                             className="mt-3"
                             src={Sturgeon.Threat}
-                            alt="Category 4 threat"
+                            alt="Category 2 threat"
                         />
                     </div>
 
@@ -81,7 +81,7 @@ function Sturgeon() {
                                     <img
                                         className="my-3"
                                         src={Sturgeon.SecondaryImage}
-                                        alt="Postured Stoat"
+                                        alt="Sturgeon"
                                     />
                                 </Col>
                             </Row>

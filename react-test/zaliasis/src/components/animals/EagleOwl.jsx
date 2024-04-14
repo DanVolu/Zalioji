@@ -54,7 +54,7 @@ function EagleOwl() {
                     />
                     <img
                         src={EagleOwl.Threat}
-                        alt="Category 4 threat"
+                        alt="Category 1 threat"
                     />
 
                 </>
@@ -72,7 +72,7 @@ function EagleOwl() {
                         <img
                             className="mt-3"
                             src={EagleOwl.Threat}
-                            alt="Category 4 threat"
+                            alt="Category 1 threat"
                         />
                     </div>
 
@@ -89,7 +89,7 @@ function EagleOwl() {
                                     <img
                                         className="my-3"
                                         src={EagleOwl.SecondaryImage}
-                                        alt="Postured Stoat"
+                                        alt="EagleOwl"
                                     />
                                 </Col>
                             </Row>
@@ -105,7 +105,7 @@ function EagleOwl() {
                                     <img
                                         className="my-3"
                                         src={EagleOwl.ThirdImage}
-                                        alt="Stoat after a succesful hunt"
+                                        alt="EagleOwl"
                                     />
                                 </Col>
                             </Row>

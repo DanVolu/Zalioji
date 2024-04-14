@@ -78,7 +78,7 @@ function Balsam() {
                                     <img
                                         className="my-3"
                                         src={Balsam.SecondaryImage}
-                                        alt="Postured Stoat"
+                                        alt="Balsam"
                                     />
                                 </Col>
                             </Row>
@@ -94,7 +94,7 @@ function Balsam() {
                                     <img
                                         className="my-3"
                                         src={Balsam.ThirdImage}
-                                        alt="Stoat after a succesful hunt"
+                                        alt="Balsam"
                                     />
                                 </Col>
                             </Row>

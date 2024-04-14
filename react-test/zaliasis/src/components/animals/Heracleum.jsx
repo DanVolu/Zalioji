@@ -78,7 +78,7 @@ function Heracleum() {
                                     <img
                                         className="my-3"
                                         src={Heracleum.SecondaryImage}
-                                        alt="Postured Stoat"
+                                        alt="Heracleum"
                                     />
                                 </Col>
                             </Row>
@@ -94,7 +94,7 @@ function Heracleum() {
                                     <img
                                         className="my-3"
                                         src={Heracleum.ThirdImage}
-                                        alt="Stoat after a succesful hunt"
+                                        alt="Heracleum"
                                     />
                                 </Col>
                             </Row>

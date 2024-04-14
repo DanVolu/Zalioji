@@ -20,7 +20,7 @@ function RegionFilter({ onSelectRegion, onSelectCategory }) {
           <Col lg={6} md={12}>
             <Dropdown>
               <Dropdown.Toggle className='bg-dark regionSelect'>
-                Select Region
+                Pasirinkti apskritį
               </Dropdown.Toggle>
               <Dropdown.Menu className='text-light bg-dark regionMenu '>
                 <Dropdown.Item className='text-light regionMenuChoices' onClick={() => handleRegionSelect('all')}>All Regions</Dropdown.Item>

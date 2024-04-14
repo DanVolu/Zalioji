@@ -47,7 +47,7 @@ function Loach() {
                     />
                     <img
                         src={Loach.Threat}
-                        alt="Category 4 threat"
+                        alt="Category 1 threat"
                     />
 
                 </>
@@ -65,7 +65,7 @@ function Loach() {
                         <img
                             className="mt-3"
                             src={Loach.Threat}
-                            alt="Category 4 threat"
+                            alt="Category 1 threat"
                         />
                     </div>
 
@@ -82,7 +82,7 @@ function Loach() {
                                     <img
                                         className="my-3"
                                         src={Loach.SecondaryImage}
-                                        alt="Postured Stoat"
+                                        alt="Loach"
                                     />
                                 </Col>
                             </Row>

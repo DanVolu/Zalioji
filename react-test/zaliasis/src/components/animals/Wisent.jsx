@@ -45,7 +45,7 @@ function Wisent() {
                     />
                     <img
                         src={Wisent.Threat}
-                        alt="Category 4 threat"
+                        alt="Category 5 threat"
                     />
 
                 </>
@@ -63,7 +63,7 @@ function Wisent() {
                         <img
                             className="mt-3"
                             src={Wisent.Threat}
-                            alt="Category 4 threat"
+                            alt="Category 5 threat"
                         />
                     </div>
 
@@ -80,7 +80,7 @@ function Wisent() {
                                     <img
                                         className="my-3"
                                         src={Wisent.SecondaryImage}
-                                        alt="Postured Stoat"
+                                        alt="Wisent"
                                     />
                                 </Col>
                             </Row>
@@ -96,7 +96,7 @@ function Wisent() {
                                     <img
                                         className="my-3"
                                         src={Wisent.ThirdImage}
-                                        alt="Stoat after a succesful hunt"
+                                        alt="Wisent"
                                     />
                                 </Col>
                             </Row>

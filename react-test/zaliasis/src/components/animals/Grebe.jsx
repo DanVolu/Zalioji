@@ -55,7 +55,7 @@ function Grebe() {
                     />
                     <img
                         src={EagleOwl.Threat}
-                        alt="Category 4 threat"
+                        alt="Category 3 threat"
                     />
 
                 </>
@@ -73,7 +73,7 @@ function Grebe() {
                         <img
                             className="mt-3"
                             src={EagleOwl.Threat}
-                            alt="Category 4 threat"
+                            alt="Category 3 threat"
                         />
                     </div>
 
@@ -90,7 +90,7 @@ function Grebe() {
                                     <img
                                         className="my-3"
                                         src={EagleOwl.SecondaryImage}
-                                        alt="Postured Stoat"
+                                        alt="Grebe"
                                     />
                                 </Col>
                             </Row>
@@ -106,7 +106,7 @@ function Grebe() {
                                     <img
                                         className="my-3"
                                         src={EagleOwl.ThirdImage}
-                                        alt="Stoat after a succesful hunt"
+                                        alt="Grebe"
                                     />
                                 </Col>
                             </Row>

@@ -55,7 +55,7 @@ function Diver() {
                     />
                     <img
                         src={Diver.Threat}
-                        alt="Category 4 threat"
+                        alt="Category 1 threat"
                     />
 
                 </>
@@ -73,7 +73,7 @@ function Diver() {
                         <img
                             className="mt-3"
                             src={Diver.Threat}
-                            alt="Category 4 threat"
+                            alt="Category 1 threat"
                         />
                     </div>
 
@@ -90,7 +90,7 @@ function Diver() {
                                     <img
                                         className="my-3"
                                         src={Diver.SecondaryImage}
-                                        alt="Postured Stoat"
+                                        alt="Diver"
                                     />
                                 </Col>
                             </Row>
@@ -106,7 +106,7 @@ function Diver() {
                                     <img
                                         className="my-3"
                                         src={Diver.ThirdImage}
-                                        alt="Stoat after a succesful hunt"
+                                        alt="Diver"
                                     />
                                 </Col>
                             </Row>

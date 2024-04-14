@@ -78,7 +78,7 @@ function Elodea() {
                                     <img
                                         className="my-3"
                                         src={Elodea.SecondaryImage}
-                                        alt="Postured Stoat"
+                                        alt="Elodea"
                                     />
                                 </Col>
                             </Row>
@@ -94,7 +94,7 @@ function Elodea() {
                                     <img
                                         className="my-3"
                                         src={Elodea.ThirdImage}
-                                        alt="Stoat after a succesful hunt"
+                                        alt="Elodea"
                                     />
                                 </Col>
                             </Row>

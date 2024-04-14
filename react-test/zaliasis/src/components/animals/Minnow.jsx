@@ -82,7 +82,7 @@ function Minnow() {
                                     <img
                                         className="my-3"
                                         src={Minnow.SecondaryImage}
-                                        alt="Postured Stoat"
+                                        alt="Minnow"
                                     />
                                 </Col>
                             </Row>
