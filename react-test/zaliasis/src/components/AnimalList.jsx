@@ -1,20 +1,29 @@
 import { useState } from 'react';
 
+
 import Dormouse from './animals/Dormouse';
 import Lusis from './animals/Lusis';
 import Mink from './animals/Mink';
 import Stoat from './animals/Stoat';
 import Wisent from './animals/Wisent';
+
 import Diver from './animals/Diver';
 import Grebe from './animals/Grebe';
 import EagleOwl from './animals/EagleOwl';
 import SpottedEagle from './animals/SpottedEagle';
 import SnakeEagle from './animals/SnakeEagle';
+
 import Breamvok from './animals/Breamvok';
 import Sturgeon from './animals/Sturgeon';
 import AtlanticSturgeon from './animals/AtlanticSturgeon';
 import Loach from './animals/Loach';
 import Minnow from './animals/Minnow'
+
+import Lobata from './animals/Lobata'
+import Heracleum from './animals/Heracleum';
+import Balsam from './animals/Balsam';
+import Goldenrod from './animals/Goldenrod';
+import Elodea from './animals/Elodea';
 
 import RegionFilter from './animals/RegionFilter';
 import { Container, Row, Col, Carousel } from 'react-bootstrap';
@@ -181,12 +190,79 @@ function AnimalList() {
                 ) && (selectedCategory === 'all' || selectedCategory === 'Žuvys') ? (<Col lg={6} className="bookItem"><Minnow /></Col>
                 ) : null}
 
-              {/* {(selectedRegion === 'all' ||
+              {(selectedRegion === 'all' ||
+                  selectedRegion === 'Alytus' ||
+                  selectedRegion === 'Kaunas' ||
                   selectedRegion === 'Klaipėda' ||
-                  selectedRegion === 'Tauragė'
-                ) && (selectedCategory === 'all' || selectedCategory === 'Žuvys') ? (<Col lg={6} className="bookItem"><Sturgeon /></Col>
-                ) : null} */}
-                
+                  selectedRegion === 'Panevėžys' ||
+                  selectedRegion === 'Šiauliai' ||
+                  selectedRegion === 'Tauragė' ||
+                  selectedRegion === 'Telšiai' ||
+                  selectedRegion === 'Utena' ||
+                  selectedRegion === 'Vilnius'
+                ) && (selectedCategory === 'all' || selectedCategory === 'Invaziniai') ? (<Col lg={6} className="bookItem"><Lobata /></Col>
+                ) : null}
+              </Row>
+            </div>
+          </Container>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <Container className='animalBook'>
+            <div className='animalBookList'>
+              <Row>
+              {(selectedRegion === 'all' ||
+                  selectedRegion === 'Alytus' ||
+                  selectedRegion === 'Kaunas' ||
+                  selectedRegion === 'Klaipėda' ||
+                  selectedRegion === 'Panevėžys' ||
+                  selectedRegion === 'Šiauliai' ||
+                  selectedRegion === 'Tauragė' ||
+                  selectedRegion === 'Telšiai' ||
+                  selectedRegion === 'Utena' ||
+                  selectedRegion === 'Vilnius'
+                ) && (selectedCategory === 'all' || selectedCategory === 'Invaziniai') ? (<Col lg={6} className="bookItem"><Heracleum /></Col>
+                ) : null}   
+
+              {(selectedRegion === 'all' ||
+                  selectedRegion === 'Alytus' ||
+                  selectedRegion === 'Kaunas' ||
+                  selectedRegion === 'Klaipėda' ||
+                  selectedRegion === 'Panevėžys' ||
+                  selectedRegion === 'Šiauliai' ||
+                  selectedRegion === 'Tauragė' ||
+                  selectedRegion === 'Telšiai' ||
+                  selectedRegion === 'Utena' ||
+                  selectedRegion === 'Vilnius'
+                ) && (selectedCategory === 'all' || selectedCategory === 'Invaziniai') ? (<Col lg={6} className="bookItem"><Balsam /></Col>
+                ) : null}
+              </Row>
+              <Row>
+              {(selectedRegion === 'all' ||
+                  selectedRegion === 'Alytus' ||
+                  selectedRegion === 'Kaunas' ||
+                  selectedRegion === 'Klaipėda' ||
+                  selectedRegion === 'Panevėžys' ||
+                  selectedRegion === 'Šiauliai' ||
+                  selectedRegion === 'Tauragė' ||
+                  selectedRegion === 'Telšiai' ||
+                  selectedRegion === 'Utena' ||
+                  selectedRegion === 'Vilnius'
+                ) && (selectedCategory === 'all' || selectedCategory === 'Invaziniai') ? (<Col lg={6} className="bookItem"><Goldenrod /></Col>
+                ) : null}
+
+              {(selectedRegion === 'all' ||
+                  selectedRegion === 'Alytus' ||
+                  selectedRegion === 'Kaunas' ||
+                  selectedRegion === 'Klaipėda' ||
+                  selectedRegion === 'Panevėžys' ||
+                  selectedRegion === 'Šiauliai' ||
+                  selectedRegion === 'Tauragė' ||
+                  selectedRegion === 'Telšiai' ||
+                  selectedRegion === 'Utena' ||
+                  selectedRegion === 'Vilnius'
+                ) && (selectedCategory === 'all' || selectedCategory === 'Invaziniai') ? (<Col lg={6} className="bookItem"><Elodea /></Col>
+                ) : null}
               </Row>
             </div>
           </Container>
