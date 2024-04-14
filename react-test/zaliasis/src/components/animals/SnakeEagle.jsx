@@ -28,6 +28,7 @@ function SnakeEagle() {
         Threat: Category0,
         Information: " Į Lietuvos raudonąją knygą rūšis įrašyta nuo 1976 metų. Paprastasis gyvatėdis Lietuvoje labai retas. Įrašytas į Lietuvos raudonosios knygos 0(Ex) kategoriją. XX a. pabaigoje ir XXI a. pirmus du dešimtmečius miško ūkiui tapus intensyvesniam, masiškai kertant kadaise buvusius didelius miškų masyvus, lieka vis mažiau galimybių rasti gyvatėdį perintį Lietuvos miškuose. Perėjimo sezono metu gyvatėdis reguliariau matomas pietinėse ir rytinėse Lietuvos dalyse. Taip pat gana reguliariai pastebimas Kazlų Rūdos miškuose. ",
         Characteristics: " šeimos paukštis. Paplitęs Eurazijoje ir Šiaurės Afrikoje. Kūno ilgis apie 65 cm, masė 1,5–2 kilogramai. Galva didelė, sparnai ilgi. Kūno viršus rusvai pilkas, uodega ruda su 3–4 tamsiomis juostomis, apačia balta, pagurklis pilkas su tamsiais dryželiais. Sparnų apačia beveik balta. Skrenda lengvai, dažnai sklando.",
+        Help: " Būtina užkirsti kelią buveinių sunaikinimui ir neigiamam žmogaus veiklos poveikiui, pvz., teršalams ar medžioklei. Be to, svarbu vykdyti mokslinius tyrimus ir stebėti Gyvatėdžio paukščio populiacijas, siekiant geriau suprasti jų būklę ir poreikius. Edukacija ir informavimas apie Gyvatėdžio paukščio ekologinę svarbą ir grėsmes, su kuriais jis susiduria, taip pat yra svarbūs. Dalyvavimas vietinėse iniciatyvose ir organizacijose, skirtose gamtos apsaugai, taip pat gali padėti prisidėti prie Gyvatėdžio išsaugojimo pastangų."
     });
 
     const toggleExpanded = () => {
@@ -77,7 +78,7 @@ function SnakeEagle() {
                     </div>
 
                     <Container className="mt-3">
-                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką reiškia šie skaičiai?</a>
+                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką tai reiškia?</a>
                     </Container>
 
                     <div className="bookParagraphs">
@@ -95,9 +96,12 @@ function SnakeEagle() {
                             </Row>
                         </Container>
 
-                        <h4>Kaip atpazinti</h4>
+                        <h4>Bruožai</h4>
                         <p>{SnakeEagle.Characteristics}</p>
 
+
+                        <h4>Kaip galima padėti?</h4>
+                        <p>{SnakeEagle.Help}</p>
 
                         <Container className="d-flex justify-content-center align-items-center">
                             <Row>

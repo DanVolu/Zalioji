@@ -27,6 +27,7 @@ function EagleOwl() {
         Threat: Category1,
         Information: "Į Lietuvos raudonąją knygą rūšis įrašyta nuo 1976 metų. Minta kiškiais, beveik visais paukščiais (susidoroja ir su vištvanagiais), pelėmis. Jeigu pasitaiko proga, gali sumedžioti iki 17 kg dydžio elnių jauniklius ar lapes. Patinai lytiškai subręsta po metų, patelės vėliau. Lizdą įruošia dažniausiai ant žemės, kartais pasinaudoja medyje esančiu senu plėšriųjų ar kitų didesnių paukščių lizdu. Deda 2-3 kiaušinius, peri tik patelė apie 35 dienas. Lizdą jaunikliai apleidžia apie birželio vidurį.",
         Characteristics: "Didysis apuokas gana stambus paukštis – stambiausia Lietuvos pelėdinių rūšis. Didysis apuokas antras pagal stambumą paukštis visoje pelėdinių šeimoje, kuris tik truputį mažesnis už didyjį apuoką žuvininką, bei mažesnis ir už Lietuvoje vis dažniau pasitaikantį jūrinį erelį. Už dažnai Lietuvoje aptinkamą naminę pelėdą didesnis apie 4–5 kartus. Didžiojo apuoko kūno ilgis 58-75 cm. Didžiųjų apuokų patelės ir svoriu, ir dydžiu akivaizdžiai pranoksta patinėlius. Norvegijos patinėlių kūno dydis vidutiniškai yra apie 61 cm, o Norvegijos patelių – 67 cm. Atstumas tarp išskleistų sparnų 138–200 cm: patinėlių vidutiniškai 157 cm, o patelių – 168 cm. Patinėlių svoris 1,5-3,2 kg (Norvegijoje – 1,80-2,80 kg, vidutiniškai 2,45 kg), patelių – 1,75-4,5 kg (Norvegijoje 2,30-4,20 kg, vidutiniškai 2,99 kg). Vokietijos Tiuringijoje patinėlių vidutinis svoris 1,89 kg, o patelių 2,55 kg.",
+        Help: "Norint užtikrinti jų išlikimą, svarbu kurti draudžiamas teritorijas arba rezervatus, kurie apsaugotų didžiųjų apuokų gyvenamąsias vietas nuo žmogaus veiklos. Be to, būtina rūpintis natūralių buveinių išsaugojimu ir užtikrinti tinkamą miškų tvarkymą, kad būtų išvengta didžiųjų apuokų gyvenamųjų vietų fragmentacijos. Tik įgyvendinus šias apsaugos priemones galima garantuoti didžiųjų apuokų išlikimą ir jų vaidmens ekosistemose tęstinumą."
     });
 
     const toggleExpanded = () => {
@@ -76,7 +77,7 @@ function EagleOwl() {
                     </div>
 
                     <Container className="mt-3">
-                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką reiškia šie skaičiai?</a>
+                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką tai reiškia?</a>
                     </Container>
 
                     <div className="bookParagraphs">
@@ -94,7 +95,7 @@ function EagleOwl() {
                             </Row>
                         </Container>
 
-                        <h4>Kaip atpazinti</h4>
+                        <h4>Bruožai</h4>
                         <p>{EagleOwl.Characteristics}</p>
 
 
@@ -109,6 +110,9 @@ function EagleOwl() {
                                 </Col>
                             </Row>
                         </Container>
+
+                        <h4>Kaip galima padėti?</h4>
+                        <p>{EagleOwl.Help}</p>
 
 
                     </div>

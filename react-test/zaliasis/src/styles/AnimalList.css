@@ -1,11 +1,13 @@
 .animalBook {
-    background-color: rgba(69, 106, 77, 1);
+    background-color: rgb(62, 104, 72);
     padding: 1.5rem 1rem 1.5rem 1rem;
     margin-bottom: 5rem;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+
 }
 
 .animalBookList {
@@ -15,6 +17,7 @@
     border-radius: 5px;
     padding: 1rem;
     margin: 0.5rem;
+    border: 3px solid rgba(0, 0, 0, 0.50);
 }
 
 .bookItem {
@@ -22,4 +25,5 @@
     border-radius: 5px;
     padding: 0rem 1rem 1rem 0;
     border: 1rem solid white;
+
 }

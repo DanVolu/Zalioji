@@ -25,6 +25,7 @@ function Balsam() {
         Category: "Invaziniai",
         Information: "Himalajuose auga 1800–4000 m aukštyje. Natūraliame areale paprastai auga lapuočių ir mišriuose miškuose, teikdama pirmenybę šlapesnėms, tačiau neatviroms saulės spinduliams augavietėms, vengia tankios žolės dangos. Bitinė sprigė prisitaikiusi prie įvairių biotopų, bet geriausiai auga drėgnose maistingose dirvose: upių ir ežerų pakrantėse, drėgnuose pakrančių žolynuose, šviesiuose lapuočių miškuose. Ypač sparčiai įsikuria žmogaus pažeistose vietose: apleistuose laukuose, pakelėse, grioviuose, gyvatvorėse. Sudaro vešlius sąžalynus su kitais azotamėgiais augalais (dilgėlėmis, žliūgėmis, šluotsmilgėmis ir kt.).",
         Characteristics: "Vienmetis žolinis augalas. Stiebas status, aukštas, šakotas, trapus, gali užaugti iki 3 m aukščio (paprastai 1–2 m). Lapai pliki, lancetiški arba elipsiški, 5–18 cm ilgio ir 2,5–7 cm pločio. Žiedyną sudaro 2–14 žiedų, kurių ilgis 25–40 mm. Žiedai rausvi (gali būti ir balti, violetiniai), kvapnūs, žydi birželio–spalio mėnesiais. Kaip ir kitos sprigės, bitinė sprigė subrandina sėklų dėžutes (jose iki 16 sėklų), kurios vėliau nuo prisilietimo pradeda aižytis ir išsvaido sėklas.",
+        Help: "Galima prisidėti prie bitinės sprigės naikinimo, kurdami tinkamas sąlygas jos natūralių priešų, pavyzdžiui, vabzdžių valgantys paukščiai, veiklai. Be to, galite informuoti vietos institucijas, tokią kaip aplinkosauginės organizacijos ar valstybinės žemės ūkio tarnybos, apie bitinės sprigės populiacijos padidėjimo vietas, kad jos galėtų įsikišti ir įgyvendinti naikinimo programas. Taip pat svarbu stebėti ir nereikalingai nešiotis bitinės sprigės, kad ji nebūtų platinama į naujas teritorijas." 
     });
 
     const toggleExpanded = () => {
@@ -83,7 +84,7 @@ function Balsam() {
                             </Row>
                         </Container>
 
-                        <h4>Kaip atpazinti</h4>
+                        <h4>Bruožai</h4>
                         <p>{Balsam.Characteristics}</p>
 
 
@@ -98,6 +99,9 @@ function Balsam() {
                                 </Col>
                             </Row>
                         </Container>
+
+                        <h4>Kaip galima padėti?</h4>
+                        <p>{Balsam.Help}</p>
 
 
                     </div>

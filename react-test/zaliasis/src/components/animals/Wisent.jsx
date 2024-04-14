@@ -18,7 +18,7 @@ function Wisent() {
         Threat: Category5,
         Information: " Į Lietuvos raudonąją knygą rūšis įrašyta nuo 1969 metų. Stumbrai gyvena lapuočių bei mišriuose miškuose su didelėmis aikštėmis ir pievomis. Gyvena bandomis, kuriose, be buliaus, yra dar keletas patelių bei jauniklių. Trimečiai patinai iš bandos išvaromi ir ima klajoti. Laisvėje gyvenančiai stumbrų bandai esama aplinka yra netinkama: miškai per maži, todėl žvėrys dažnai ieško maisto jų pakraščiuose esančiuose žemės ūkio plotuose. Siekiant apsaugoti žemės ūkio naudmenas, stumbrai nuvejami į jiems svetimas teritorijas. Dalis gyvūnų žūsta nuo brakonierių. Lietuvoje stumbrus planuojama laikyti tik aptvaruose.",
         Characteristics: "Patino kūno ilgis iki 3,5 m, aukštis iki 200 cm, masė 700–1000 kilogramų. Patelės mažesnės, masė 400–600 kilogramų. Galva didelė, kaklas storas, ketera aukšta, priekinė kūno dalis yra masyvesnė už užpakalinę. Raguoti patinai ir patelės. Ragai palyginti nedideli (patinų iki 60 cm ilgio), lenkti, staigiai plonėjantys, pamatinė dalis stora. Plaukai tankūs šiurkštūs, pilkai rudi. Pakaklėje nukarę plaukai sudaro barzdą. Uodega trumpa, apaugusi ilgais plaukais. ",
-        Sightings: WisentRegion
+        Sightings: WisentRegion,
     });
 
     const toggleExpanded = () => {
@@ -68,7 +68,7 @@ function Wisent() {
                     </div>
 
                     <Container className="mt-3">
-                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką reiškia šie skaičiai?</a>
+                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką tai reiškia?</a>
                     </Container>
 
                     <div className="bookParagraphs">
@@ -86,7 +86,7 @@ function Wisent() {
                             </Row>
                         </Container>
 
-                        <h4>Kaip atpazinti</h4>
+                        <h4>Bruožai</h4>
                         <p>{Wisent.Characteristics}</p>
 
 
@@ -102,10 +102,10 @@ function Wisent() {
                             </Row>
                         </Container>
 
-
-                        <h4>Possible sighting locations</h4>
+                        <h4>Galimos pastebėjimo vietos</h4>
                     </div>
                     <img
+                                style={{ filter: 'contrast(150%)' }}
                         src={Wisent.Sightings}
                         alt="possible sightings of the Stoat"
                     />

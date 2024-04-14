@@ -25,6 +25,7 @@ function Lobata() {
         Category: "Invaziniai",
         Information: "Auginamas kaip dekoratyvinis augalas, palaipsniui sulaukėjo. Sutinkamas upių pakrantėse, kur antroje vasaros pusėje sudaro tankius brūzgynus, vandens pagalba greitai plinta.",
         Characteristics: " Stiebai gali siekti didesnį nei 6 m ilgį, ūsais tvirtinasi prie kitų augalų. Lapai skiautėti, rečiau ištisiniai, 5-10 cm ilgio. Augalas vienanamis, žydi birželio-rugsėjo mėnesiais. Žiedai balti, sukrauti į kekes, kvapnūs. vaisius – 1-6 cm ilgio moliūgvaisis, padengtas aštriais dygliukais. Viduje yra 2 sėklalizdžiai su pora sėklų. Prinokęs vaisius pageltonuoja, išsipučia ir sėklas iššaudo (rugpjūčio-spalio mėn.). Dažnai pavasarį nuo vėlyvųjų šalnų apšąla.",
+        Help: "Dygliavačio augalo naikinimui reikėtų taikyti veiksmingus metodus, įskaitant mechaninius ar cheminius būdus, kad būtų suvaldytas jo populiacijos augimas. Svarbu bendradarbiauti su vietos valdžios institucijomis ir ekspertais, siekiant sukurti efektyvius naikinimo planus ir užtikrinti tinkamą švietimą ir informavimą apie šio augalo invazijos pavojus. Be to, būtina aktyviai dalyvauti valymo akcijose ir kitose vietinėse iniciatyvose, siekiant kontroliuoti Dygliavačio augalo plitimą ir apsaugoti natūralią aplinką.        "
     });
 
     const toggleExpanded = () => {
@@ -83,7 +84,7 @@ function Lobata() {
                             </Row>
                         </Container>
 
-                        <h4>Kaip atpazinti</h4>
+                        <h4>Bruožai</h4>
                         <p>{Lobata.Characteristics}</p>
 
 
@@ -99,6 +100,9 @@ function Lobata() {
                             </Row>
                         </Container>
 
+
+                        <h4>Kaip galima padėti?</h4>
+                        <p>{Lobata.Help}</p>
 
                     </div>
                     {/* <img

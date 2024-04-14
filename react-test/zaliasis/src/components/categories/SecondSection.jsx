@@ -8,25 +8,24 @@ function SecondSection() {
       <div className='SecondSectionContainer'>
           <div className='SecondFirstSectionCategory'>
                 <img className='European' src={Aquatic} alt="Europine" />
-                  <h2 className='splitEuropeanFirst'>Dangaus</h2>
-                  <h2 className='splitEuropeanSecond'>stebėtojai</h2>
+                  <h2 className='splitEuropeanFirst'>Įvairovės</h2>
+                  <h2 className='splitEuropeanSecond'>srovė</h2>
                   <div className='SecondDescriptionContainer'>  
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br></br><br></br>
-                        Ullamcorper a lacus vestibulum sed arcu non odio euismod.
+                      Vandens gyvūnai sudaro esminę vandens ekosistemų dalį, palaikančią biologinę pusiausvyrą ir prisidedančią prie vandens telkinių ekologinės harmonijos. Jų išsaugojimas yra būtinas siekiant užtikrinti sveiką ir gyvybingą vandens aplinką.
                       </p>
                   </div>
             </div>
 
         <div className='SecondFirstSectionCategory'>
             <img className='Invasive' src={Invasive} alt="Invazine" />
-              <h2 className='invasiveNeutral'>Dangaus</h2>
-              <h2 className='invasiveNeutral2'> stebėtojai</h2>
-              <h2 className='invasiveFlipped'>Dangaus</h2>
-              <h2 className='invasiveFlipped2'>stebėtojai</h2>
+              <h2 className='invasiveNeutral'>Svetima</h2>
+              <h2 className='invasiveNeutral2'> Grėsmė</h2>
+              <h2 className='invasiveFlipped'>Svetima</h2>
+              <h2 className='invasiveFlipped2'>Grėsmė</h2>
 
               <div className='invasiveDescriptionContainer'>  
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
+                  <p>Invaziniai gyvūnai ir augalai gali išstumti vietines rūšis ir pakenkti ekosistemoms bei žemės ūkiui. Todėl juos verta naikinti siekiant išsaugoti biologinę įvairovę ir apsaugoti ekosistemas bei žmonių gerovę.</p>
               </div>
         </div>
 

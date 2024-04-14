@@ -8,7 +8,7 @@ function Header() {
         <div className='HeaderTexts'>
           {/* <img className='Lokys' src={lokysImage} alt="Lokys" /> */}
             <h1>Žalioji knyga</h1>
-            <p>Kažka čia kieto ir aktualaus apie tinklapį parašysiu</p>
+            <p>Prisidėkime prie rūšių išsaugojimo</p>
             {/* <a>Go to Section</a> */}
         </div>
       </div>

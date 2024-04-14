@@ -28,7 +28,7 @@ function Diver() {
         Threat: Category1,
         Information: " Į Lietuvos raudonąją knygą rūšis įrašyta nuo 1981 metų. Lietuvoje aptinkamas balandžio - spalio mėnesiais. Gyvena ežeruose, traukimo metu dažnesnis pajūryje. Lizdą įsiruošia krante ar salelėse, visai prie vandens. Deda 2 rusvus, nelabai dėmėtus kiaušinius. Peri 28-30 dienų. Išveda vieną vadą. Minta žuvimis.",
         Characteristics: "Dydis 27-33 cm, svoris - 2000-3000 g. Skiriamasis požymis - kaklo priekis juodas. Galva ir kaklo viršus pilki. Nugarinė pusė juoda, išmarginta didelėmis baltomis dėmėmis. Kaklo ir pagurklio šonuose išilginės juodai baltos juostelės. Kūno šonai juodi, o pilvinė pusė balta. Snapas pilkai juodas. Kojos žalsvai juodos. Žiemą nugarinė pusė juodai rusva. Apatinė pusė nuo gerklės balta. ",
-        // Sightings: WisentRegion
+        Help: "Juodakakliai narai yra jautrios rūšys, kurių išsaugojimas reikalauja bendrų pastangų. Svarbu saugoti ir atkurti jų natūralias buveines, įskaitant šlaitus, kryptingas pievas ir dirvas. Taip pat būtina steigti draudžiamas teritorijas ar rezervatus, kurie apsaugotų juodakaklių narų gyvenvietes nuo žmogaus veiklos. Įgyvendinus šias apsaugos priemones, galima padėti išsaugoti juodakaklių narų populiaciją."
     });
 
     const toggleExpanded = () => {
@@ -78,7 +78,7 @@ function Diver() {
                     </div>
 
                     <Container className="mt-3">
-                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką reiškia šie skaičiai?</a>
+                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką tai reiškia?</a>
                     </Container>
 
                     <div className="bookParagraphs">
@@ -96,7 +96,7 @@ function Diver() {
                             </Row>
                         </Container>
 
-                        <h4>Kaip atpazinti</h4>
+                        <h4>Bruožai</h4>
                         <p>{Diver.Characteristics}</p>
 
 
@@ -112,6 +112,8 @@ function Diver() {
                             </Row>
                         </Container>
 
+                    <h4>Kaip galima padėti?</h4>
+                    <p>{Diver.Help}</p>
 
                     </div>
                     {/* <img

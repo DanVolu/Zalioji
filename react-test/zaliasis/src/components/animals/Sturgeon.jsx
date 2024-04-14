@@ -19,7 +19,7 @@ function Sturgeon() {
         Threat: Category2,
         Information: "Į Lietuvos raudonąją knygą rūšis įrašyta nuo 2019 metų. Aštriašnipiai eršketai gyvena jūroje netoli kranto, negiliuose vandenyse ir į jūrą įtekančiose didesnėse upėse. Labiausiai ėda vėžiagyvius, kirmėlėmis ir moliuskais. Gėluose vandenyse gaudo žieduotąsias kirmėles, vandens vabzdžius, nariuotakojus, jūroje – lygiakojus, šoniplaukas. O suaugę ėda ir detritą. Didžiausia neigiamą poveikį aštriašnipiams eršketams turi Baltijos jūros priekrančių, Kuršių marių ir Nemuno vandens tarša, intensyvi verslinė žvejyba ir laivyba, sąnašų kaupimasis ir Nemuno deltos seklėjimas. Šiuo metu grėsmę kelia ir Kauno HE (Hidro elektrinės) užtvanka, užkirtusi kelią į buvusias sturių nerštavietes Nemuno vidurupyje. Norint atkurti šią rūšį, būtina mažinti Baltijos jūros priekrančių, Kuršių marių ir Nemuno vandens taršą, nebestatyti naujų užtvankų Nemuno žemupyje, gilinti Nemuno deltos atšakas ir įsijungti į aštriašnipių eršketų populiacijos atkūrimo programas.",
         Characteristics: "Aštriašnipis eršketas yra didelė žuvis. Didžiausias žinomas kūno ilgis iki 403 cm (patinėlių), 430 cm (patelių). Svoris iki 370 kg, nors įprastai suaugusios šios žuvys mažesnės. Migruojantys, subrendę patinai sveria apie 30 – 45 kg, patelės apie 50 – 110 kg.",
-        // Sightings: WisentRegion
+        Help: "Aštriašnio eršketo išsaugojimui galima padėti prisidedant prie jo natūralių gyvenamųjų vietų ir buveinių apsaugos. Tai apima vandens telkinių, kuriose jie gyvena, kaip ežerai ir upės, aplinkos kokybės palaikymą ir taršos mažinimą. Svarbu taip pat užkirsti kelią invazinių rūšių įsiskverbimui, kurių populiacijos gali konkuruoti su aštriašniu eršketu maisto ar buveinių atžvilgiu. Informuoti ir šviesti bendruomenę apie šių žuvų ekologinę svarbą bei galimus grėsmes gali padėti suvokti būtinybę jas apsaugoti. Dalyvavimas vietiniuose projektuose ar organizacijose, skirtose gamtos išsaugojimui, taip pat gali būti veiksmingas būdas prisidėti prie aštriašnio eršketo išsaugojimo."
     });
 
     const toggleExpanded = () => {
@@ -69,7 +69,7 @@ function Sturgeon() {
                     </div>
 
                     <Container className="mt-3">
-                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką reiškia šie skaičiai?</a>
+                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką tai reiškia?</a>
                     </Container>
 
                     <div className="bookParagraphs">
@@ -87,10 +87,12 @@ function Sturgeon() {
                             </Row>
                         </Container>
 
-                        <h4>Kaip atpazinti</h4>
+                        <h4>Bruožai</h4>
                         <p>{Sturgeon.Characteristics}</p>
 
 
+                        <h4>Kaip galima padėti?</h4>
+                        <p>{Sturgeon.Help}</p>
 
                     </div>
                     {/* <img

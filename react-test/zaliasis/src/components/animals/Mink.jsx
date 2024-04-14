@@ -18,7 +18,8 @@ function Mink() {
         Threat: Category0,
         Information: "Į Lietuvos raudonąją knygą rūšis įrašyta nuo 1989 iki 2019 metų. Gyvena atskiruose Ispanijos, Prancūzijos, Rumunijos, Švedijos, Lenkijos regionuose ir didžiojoje Rusijos dalyje, bet ne toliau į rytus nei Uralo kalnai. Lietuvoje rūšis nėra pastebėta jau apie tris dešimtmečius, paskutiniai žvėreliai pastebėti 1978 — 1979 m. pietų Lietuvoje, Merkio baseine.  Kartais sutinkamas pavadinimas - švitras. Poruojasi vasario - kovo mėn., jauniklius veda balandžio - birželio mėnesiais. Jais rūpinasi tik patelė. Subręsta antraisiais gyvenimo metais. Pastebėta, kad ten, kur europinė audinė jau 50 metų gyvena greta kanadinės audinės, pirmosios masė dabar vidutiniškai yra šeštadaliu didesnė nei anksčiau.",
         Characteristics: "Kailis nuo rudos iki tamsiai durpinės spalvos, tankus, žvilgantis, baltos lūpos ir balta dėmė yra po gerkle. Gyvena arti vandens, gerai plaukioja ir nardo. Minta vandens gyviais - žuvimis, varlėmis, vėžiais, taip pat ir paukščiais. Dėl maisto iš dalies konkuruoja su kanadine audine, ūdra ir juoduoju šešku.",
-        Sightings: MinkRegion
+        Sightings: MinkRegion,
+        Help: "Europinės audinės išsaugojimui galima padėti įvairiais būdais. Svarbu remti jų natūralias buveines ir gyvenvietes, pvz., miškus, pievas ir laukus, užtikrinant tinkamą šių vietų valdymą ir apsaugą nuo neigiamų žmogaus veiklos padarinių. Be to, būtina vykdyti mokslinius tyrimus ir stebėti Europinių audinių populiacijas, kad būtų galima geriau suprasti jų būklę ir poreikius. Taip pat svarbu skatinti švietimą ir informavimą apie Europinių audinių ekologinę svarbą ir pavojus, su kuriais jie susiduria. Dalyvavimas vietinėse iniciatyvose ir organizacijose, skirtose gamtos apsaugai, taip pat gali padėti prisidėti prie Europinių audinių išsaugojimo pastangų.        "
     });
 
     const toggleExpanded = () => {
@@ -60,6 +61,7 @@ function Mink() {
                             src={Mink.Image}
                             alt={Mink.Name}
                         />
+                        <p>Photo by JonasSuni</p>
                         <img
                             className="mt-3"
                             src={Mink.Threat}
@@ -68,7 +70,7 @@ function Mink() {
                     </div>
 
                     <Container className="mt-3">
-                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką reiškia šie skaičiai?</a>
+                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką tai reiškia?</a>
                     </Container>
 
                     <div className="bookParagraphs">
@@ -82,11 +84,12 @@ function Mink() {
                                         src={Mink.SecondaryImage}
                                         alt="A mink in a tube"
                                     />
+                                    <p>Photo by diethukrals</p>
                                 </Col>
                             </Row>
                         </Container>
 
-                        <h4>Kaip atpazinti</h4>
+                        <h4>Bruožai</h4>
                         <p>{Mink.Characteristics}</p>
 
 
@@ -98,12 +101,16 @@ function Mink() {
                                         src={Mink.ThirdImage}
                                         alt="image of a Mink"
                                     />
+                                    <p>Photo by Chriest</p>
                                 </Col>
                             </Row>
                         </Container>
 
+                        <h4>Kaip galima padėti?</h4>
+                        <p>{Mink.Help}</p>
 
-                        <h4>Possible sighting locations</h4>
+
+                        <h4>Galimos pastebėjimo vietos</h4>
                     </div>
                     <img
                         src={Mink.Sightings}

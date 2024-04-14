@@ -19,7 +19,7 @@ function AtlanticSturgeon() {
         Threat: Category0,
         Information: " Į Lietuvos raudonąją knygą rūšis įrašyta nuo 1989 iki 2019 metų. XIX a. - XX a. pradžioje Lietuvoje atplaukdavo neršti į Nemuną iki Druskininkų ir Nerį. Remiantis oficialiais šaltiniais, paskutiniai sturiai Lietuvoje sužvejoti: 1939 m. Nemune ties Vilkija (2,5 m ilgio, 122 kg svorio); 1955 m. Kuršių mariose ties Nida (2,54 m ilgio, 120 kg svorio ikringa patelė); 1960 m. Baltijos jūroje ties Nida (2,1 m ilgio, 82 kg svorio patinas). Vėliau Lietuvos vandenyse sturių sugauta nebuvo. Sturiams didžiausia neigiamą poveikį turėjo Baltijos jūros priekrančių, Kuršių marių ir Nemuno vandens tarša, intensyvi verslinė žvejyba ir laivyba, sąnašų kaupimasis ir Nemuno deltos seklėjimas. Šiuo metu grėsme kelia ir Kauno HE (Hidro elektrinės) užtvanka, užkirtusi kelią į buvusias sturių nerštavietes Nemuno vidurupyje. Norint atkurti šią rūšį, būtina mažinti Baltijos jūros priekrančių, Kuršių marių ir Nemuno vandens taršą, nebestatyti naujų užtvankų Nemuno žemupyje, gilinti Nemuno deltos atšakas ir įsijungti a sturių populiacijos atkūrimo programas.",
         Characteristics: "Kūnas ilgas, 31-43 cm ilgio, nors užauga ir iki 5 m. Sveria iki 400 kg. Pilvinė pusė plokščia, nugarinė - iškili. Šnipas ilgas, su 4 ūsais. Nugara pilkšvai rusva ar pilkšvai rausva. Pilvas šviesus. Nugarinėje pusėje yra 9-14 kaulinių plokštelių, šoninėje 24-36, pilvinėje 10-12 labai stambių. Minta smulkiomis žuvimis, bestuburiais. Nerštui migruoja į Nemuno žemupį, todėl žuvis praeivė. Paplitusi Baltijos jūroje. Labai reta nykstanti žuvis.",
-        // Sightings: WisentRegion
+        Help: "gali padėti išsaugoti Atlantinę ersketą įgyvendindamas kelis veiksmus. Pirmiausia, svarbu rinktis tvarius žuvies produktus, kurie yra pagaminti tausiomis žvejybos praktikomis arba yra sertifikuoti kaip tvarūs. Sąmoningas žuvies vartojimas taip pat yra svarbus, mažinant per didelį žuvies suvartojimą. Be to, būtina informuoti kitus apie Atlantinės ersketos išsaugojimo svarbą ir skatinti tvarų žuvies vartojimą. Taip pat svarbu palaikyti jūrų ekosistemas ir remti politiką, skatinančią tvarias žvejybos praktikas ir jūrų išteklių apsaugą. Visi šie veiksmai gali padėti prisidėti prie Atlantinės ersketos ir kitų jūrų rūšių išsaugojimo."
     });
 
     const toggleExpanded = () => {
@@ -69,7 +69,7 @@ function AtlanticSturgeon() {
                     </div>
 
                     <Container className="mt-3">
-                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką reiškia šie skaičiai?</a>
+                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką tai reiškia?</a>
                     </Container>
 
                     <div className="bookParagraphs">
@@ -87,8 +87,11 @@ function AtlanticSturgeon() {
                             </Row>
                         </Container>
 
-                        <h4>Kaip atpazinti</h4>
+                        <h4>Bruožai</h4>
                         <p>{AtlanticSturgeon.Characteristics}</p>
+
+                        <h4>Kaip galima padėti?</h4>
+                        <p>{AtlanticSturgeon.Help}</p>
 
 
 

@@ -20,7 +20,7 @@ function Loach() {
         Threat: Category1,
         Information: "Į Lietuvos raudonąją knygą rūšis įrašyta nuo 2019 metų. Anksčiau buvo manyta, kad šiaurinis auksaspalvis kirtiklis (lot. Sabanejewia baltica) yra auksaspalvio kirtiklio (lot. Sabanejewia aurata) porūšis ir mokslinėje literatūroje lotyniškai buvo vadinamas sabanejewia aurata baltica. Šis pavadinimas dabar išlikęs kaip šiaurinio auksaspalvio kirtiklio sinonimas. saspalviai kirtikliai neršia pavasarį, gegužės – birželio mėnesiais, esant ne žemesnei kaip +20 °C vandens temperatūrai upės dugne tarp vandens augalijos ant smėlio, žvyro, akmenukų, išleisdami apie 900 lipnių 1,1 - 1,2 mm skersmens ikrelių. Esant +22°C vandens temperatūrai, iš ikrelių mailius išlenda po išneršimo praėjus 50 - 60 valandų. Mailius 3,1 - 4,2 mm ilgio ir maitintis pradeda praėjus 6 paroms ir minta zooplanktonu.",
         Characteristics: "Auksaspalvis kirtiklis auga lėtai, jo kūno ilgis sudaro 5 – 9 cm, dažniausiai 6 – 8 cm, kūno masė dažniausiai 3 – 5 g. Auksaspalviai kirtikliai gyvena pavieniui. Aktyviausi vakare ir naktį. Jie slėpdamiesi nuo priešų, upės dugne įsirausia po smėliu, rečiau po žvyru. Auksaspalviai kirtikliai gyvena iki 4 – 5 metų.",
-        // Sightings: WisentRegion
+        Help: "Svarbu skatinti tvarų žuvies išteklių naudojimą ir valdymą. Tai apima reguliavimą žvejybos veiklą, kad būtų išvengta pernelyg didelio žuvų populiacijos išnaudojimo, ir tausios žvejybos praktikų skatinimą. Be to, svarbu ginti ir atkurti natūralias gyvenvietes bei buveines, kuriose gyvena Auksaspalvis kirtiklis, įskaitant upes, ežerus ir vandens telkinius. Dėl šių veiksmų būtų galima prisidėti prie Auksaspalvio kirtiklio populiacijos išsaugojimo ir tvaraus jūrų ekosistemų vystymo."
     });
 
     const toggleExpanded = () => {
@@ -70,7 +70,7 @@ function Loach() {
                     </div>
 
                     <Container className="mt-3">
-                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką reiškia šie skaičiai?</a>
+                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką tai reiškia?</a>
                     </Container>
 
                     <div className="bookParagraphs">
@@ -88,9 +88,11 @@ function Loach() {
                             </Row>
                         </Container>
 
-                        <h4>Kaip atpazinti</h4>
+                        <h4>Bruožai</h4>
                         <p>{Loach.Characteristics}</p>
 
+                        <h4>Kaip galima padėti?</h4>
+                        <p>{Loach.Help}</p>
 
 
                     </div>

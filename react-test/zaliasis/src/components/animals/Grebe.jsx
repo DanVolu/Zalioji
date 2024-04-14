@@ -28,7 +28,7 @@ function Grebe() {
         Threat: Category3,
         Information: "Į Lietuvos raudonąją knygą rūšis įrašyta nuo 1989 metų. Mėgsta nedidelių ežerų seklias užžėlusias pakrantes, pelkėtas kūdras, tvenkinius, seklius užtakius. Įsikuria nenaudojamuose durpynuose, karjeruose, kūdrose. Labai atsargus paukštis, retai kada išplaukia į atvirus vandens plotus. Slapstosi augalų tankmėse. Pajutęs pavojų, tuojau sprunka.",
         Characteristics: "Juodakaklio krago nugarinė pusė juodai rusva, galvos viršus tamsesnis. Galva gausiai apaugusi plunksnomis, todėl atrodo lyg su kuoduku. Per skruostus eina ilga, šviesiai geltona žvilganti juosta. Kita galvos dalis, kaklas ir pagurklis juodi. Mažosios plasnojamosios plunksnos baltos. Pilvinė pusė balta, šonai ryškiai rudi. Snapas juodas, kojos alyvinės pilkos spalvos, akys raudonos.",
-        // Sightings: WisentRegion
+        Help: "Prisidedant prie Juodakaklio krago išsaugojimo, svarbu remti jo natūralias gyvenvietes ir buveines, pavyzdžiui, saugoti miškus ir pievas, kuriose jis gyvena. Taip pat reikia užtikrinti draudžiamų teritorijų arba rezervatų sukūrimą, kad būtų apsaugota jo gyvenamoji aplinka nuo žmogaus veiklos. Būtina vykdyti mokslinius tyrimus ir stebėjimus, siekiant geriau suprasti šios rūšies populiacijos būklę ir reikiamas apsaugos priemones. Taip pat svarbu edukacija ir informavimas apie Juodakaklio krago ekologinę svarbą ir pavojus, su kuriais jis susiduria, kad bendruomenės galėtų prisidėti prie jo išsaugojimo pastangų.        "
     });
 
     const toggleExpanded = () => {
@@ -78,7 +78,7 @@ function Grebe() {
                     </div>
 
                     <Container className="mt-3">
-                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką reiškia šie skaičiai?</a>
+                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką tai reiškia?</a>
                     </Container>
 
                     <div className="bookParagraphs">
@@ -96,7 +96,7 @@ function Grebe() {
                             </Row>
                         </Container>
 
-                        <h4>Kaip atpazinti</h4>
+                        <h4>Bruožai</h4>
                         <p>{EagleOwl.Characteristics}</p>
 
 
@@ -111,6 +111,10 @@ function Grebe() {
                                 </Col>
                             </Row>
                         </Container>
+
+
+                        <h4>Kaip galima padėti?</h4>
+                        <p>{Grebe.Help}</p>
 
 
                     </div>

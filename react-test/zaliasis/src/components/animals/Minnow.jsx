@@ -20,7 +20,7 @@ function Minnow() {
         Threat: Category4,
         Information: "Į Lietuvos raudonąją knygą rūšis įrašyta nuo 2010 metų. Ežerinės rainės gyvena priedugniniame ežerėlių sluoksnyje. Žiemą užsirausia giliai į dumblą ir įminga. Minta smulkiais moliuskais, vabzdžių lervomis, kirmėlėmis, taip pat ėda ir kitų žuvų ikrus. Subręsta 2 metų, kai kūno ilgis siekia 6 cm, o svoris - 3,5 g. Neršia gegužės - birželio mėn., kai vandens temperatūra 9-11 °C. Neršia porcijomis (3-4 kartus), vislumas - 19-26 tūkst. ikrelių. Ikrai lipnūs, vystosi vandens augalijoje 10-15 parų. Kai lervučių ilgis pasiekia 15 mm, dar prieš trynio maišelio rezorbciją jos pradeda maitintis planktoniniais vėžiagyviais.",
         Characteristics: "Ežerinė rainė yra trumpaamžė (gyvena iki 6 metų) smulki žuvis (užauga iki 13 cm). Burna nedidelė, galinė. Kūnas išmargintas smulkiomis juodomis ar rudomis dėmėmis. Ežerinei rainei būdingas didelis morfologinis kintamumas, todėl anksčiau buvo išskiriami 7 porūšiai. Lietuvoje pagautų žuvų ilgis buvo 59-77 mm, svoris - 2-5 g.        ",
-        // Sightings: WisentRegion
+        Help: "Siekiant padėti išsaugoti Ežerinę rainę, svarbu užtikrinti tinkamas jos buveines ir gyvenvietes, įskaitant ežerus, pelkes ir kitas vandens telkinių aplinkas, kuriuose jos gyvena. Tai reiškia rūpintis šių teritorijų valdymu ir apsauga nuo neigiamų žmogaus veiklos poveikių, pvz., taršos ar habitatų sunaikinimo. Be to, svarbu vykdyti mokslinius tyrimus ir stebėti Ežerinės rainės populiacijas, siekiant geriau suprasti jų būklę ir poreikius. Švietimas ir informavimas apie Ežerinės rainės ekologinę svarbą ir pavojus, su kuriais jos susiduria, taip pat yra svarbus, kad bendruomenė galėtų suprasti, kaip prisidėti prie jų išsaugojimo. Dalyvavimas vietinėse iniciatyvose ir organizacijose, skirtose gamtos apsaugai ir vandens telkinių valdymui, taip pat gali būti veiksmingas būdas padėti prie Ežerinės rainės išsaugojimo pastangų.        "
     });
 
     const toggleExpanded = () => {
@@ -70,7 +70,7 @@ function Minnow() {
                     </div>
 
                     <Container className="mt-3">
-                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką reiškia šie skaičiai?</a>
+                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką tai reiškia?</a>
                     </Container>
 
                     <div className="bookParagraphs">
@@ -88,9 +88,12 @@ function Minnow() {
                             </Row>
                         </Container>
 
-                        <h4>Kaip atpazinti</h4>
+                        <h4>Bruožai</h4>
                         <p>{Minnow.Characteristics}</p>
 
+
+                        <h4>Kaip galima padėti?</h4>
+                        <p>{Minnow.Help}</p>
 
 
                     </div>

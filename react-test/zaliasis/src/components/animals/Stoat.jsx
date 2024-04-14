@@ -18,7 +18,8 @@ function Stoat() {
         Threat: Category4,
         Information: "Į Lietuvos raudonąją knygą rūšis įrašyta nuo 2003 metų. Minta triušiais, graužikais (pelėmis, žiurkėmis), kitais smulkiais žinduoliais, taip pat ėda paukščius, jų kiaušinius ir jauniklius. Kartais ėda ir žuvis, roplius, amfibijas ir bestuburius. Poruojasi gegužės - birželio mėnesiai ir veda nuo 5-ių iki 12-os jauniklių. Mažyliais rūpinasi tik patelė. Jaunikliai grobį sugeba įveikti būdami 3 mėnesių. Tokio amžiaus jie tampa savarankiški. Artėjant žiemai, rudas vasaros kailiukas keičiamas baltu, bet juodas uodegos galiukas išlieka.",
         Characteristics: "Šermuonėlis yra nedidelis, laibas, juodu uodegos galiuku kiauninis žvėrelis. Išauga iki 30 cm ilgio. Aptinkamas miškingose, pelkėtose ir atvirose vietovėse. Dažniau gyvybines veiklos žymių pastebima kupstynėse, nendrynuose, upių slėniuose, kirtavietėse. Gali buti aktyvus bet kuriuo paros metu. Didžiąją gyvenimo dalį praleidžia pelinio graužiko, kurmių urveliuose, kuriuose ilsisi.",
-        Sightings: StoatRegion
+        Sightings: StoatRegion,
+        Help: "Šermuonėlio, kaip žinduolio, išsaugojimui esminiai svarbu saugoti jo natūralias gyvenvietes ir buveines. Tai apima gamtos teritorijų, kuriose jie gyvena, kaip pievos, miškai ir laukai, apsaugą nuo neigiamų žmogaus veiklos pasekmių, pvz., gamtos teritorijų naikinimo arba fragmentavimo. Be to, būtina stebėti ir vertinti šermuonėlių populiacijų būklę, kad būtų galima identifikuoti problemas ir įgyvendinti būtinas apsaugos priemones. Edukacija ir informavimas apie šių gyvūnų ekologinę svarbą ir grėsmes, su kuriomis jie susiduria, taip pat yra nepaprastai svarbūs. Bendradarbiavimas su vietos bendruomenėmis, gamtos apsaugos organizacijomis ir institucijomis taip pat gali labai prisidėti prie šermuonėlių išsaugojimo pastangų."
     });
 
     const toggleExpanded = () => {
@@ -60,6 +61,7 @@ function Stoat() {
                             src={Stoat.Image}
                             alt={Stoat.Name}
                         />
+                        <p>Photo by USFWSAlaska</p>
                         <img
                             className="mt-3"
                             src={Stoat.Threat}
@@ -68,7 +70,7 @@ function Stoat() {
                     </div>
 
                     <Container className="mt-3">
-                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką reiškia šie skaičiai?</a>
+                        <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką tai reiškia?</a>
                     </Container>
 
                     <div className="bookParagraphs">
@@ -82,11 +84,12 @@ function Stoat() {
                                         src={Stoat.SecondaryImage}
                                         alt="Postured Stoat"
                                     />
+                                    <p>Photo by Adventures with E&L</p>
                                 </Col>
                             </Row>
                         </Container>
 
-                        <h4>Kaip atpazinti</h4>
+                        <h4>Bruožai</h4>
                         <p>{Stoat.Characteristics}</p>
 
 
@@ -98,14 +101,19 @@ function Stoat() {
                                         src={Stoat.ThirdImage}
                                         alt="Stoat after a succesful hunt"
                                     />
+                                    <p>Photo by Kentish Plumber</p>
                                 </Col>
                             </Row>
                         </Container>
+                        <h4>Kaip galima padėti?</h4>
+                        <p>{Stoat.Help}</p>
 
 
-                        <h4>Possible sighting locations</h4>
+
+                        <h4>Galimos pastebėjimo vietos</h4>
                     </div>
                     <img
+                                style={{ filter: 'contrast(150%)' }}
                         src={Stoat.Sightings}
                         alt="possible sightings of the Stoat"
                     />

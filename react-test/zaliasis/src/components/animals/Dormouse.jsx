@@ -18,7 +18,8 @@ function Dormouse() {
     Threat: Category2,
     Information: "Lietuvoje šiuo metu žinomos 9 populiacijos, daugiausia Nemuno ir Neries upių bei į jas atitekančių upelių slėniuose ar netoli jų. Lietuvoje dažniausiai gyvena senuose ąžuolynuose ir brandžiuose mišriuose miškuose su senais ąžuolais ir lazdynų traku. Aktyvi sutemus ir naktį, dieną praleidžia lizduose, kuriuos dažniausiai daro medžių uoksuose, mėgsta įsikurti inkiluose. Minta daugiausia augaliniu maistu: pumpurais, uogomis, vaisiais, riešutais, gilėmis, nors ėda ir kiaušinius, jauniklius ar net suaugusius paukščius. Suaugę individai sėslus, turi individualias teritorijas. Jauniklius (4 - 8) veda rugpjūčio mėnesiais. Žiemą miega. Įmygis trunka nuo rugsėjo pabaigos - spalio pradžios iki gegužės antros pusės. Beveik visose žinomose radavietėse didžiosioms miegapelėms tinkamų gyventi buveinių plotai yra nedideli, todėl ir populiacijos yra negausios.",
     Characteristics: "Kailiukas pelenų spalvos, kartais rusvo atspalvio. Kūno apačia šviesesnė. Snukučio šonuose juodų ruožų nėra, tik akis juosia tamsesnių plaukų žiedas. Ausys apvalios, apaugusios trumpais plaukais. Uodega papurusi. Užpakalinės kojos šiek tiek ilgesnės už priekines, letenos trumpos ir plačios. Tai pati didžiausia Lietuvos miegapelė, kuri yra 140-190 mm ilgio ir 70-120 g svorio.",
-    Sightings: DormouseRegion
+    Sightings: DormouseRegion,
+    Help: "Norint jas išsaugoti, būtina užtikrinti jų buveinių apsaugą ir natūralių gyvenamųjų vietų išsaugojimą. Tai galima pasiekti steigiant draudžiamas teritorijas ar rezervatus, kuriuose būtų apsaugotos miegapelių gyvenamos vietos nuo žmogaus veiklos. Be to, svarbu vykdyti mokslinius tyrimus ir stebėjimus, kad būtų geriau suprasta miegapelių populiacijos būklė ir reikalingos apsaugos priemonės. Tik įgyvendinus šias priemones galima užtikrinti Didžiosios miegapelės išlikimą ateityje."
   });
 
   const toggleExpanded = () => {
@@ -68,7 +69,7 @@ function Dormouse() {
           </div>
 
           <Container className="mt-3">
-            <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką reiškia šie skaičiai?</a>
+            <a href="https://www.raudonojiknyga.lt/knyga/2-saugomu-rusiu-kategorijos" target='_blank' className="">Ką tai reiškia?</a>
           </Container>
 
           <div className="bookParagraphs">
@@ -82,6 +83,7 @@ function Dormouse() {
                     src={Dormouse.SecondaryImage}
                     alt="A dormouse in it's burrow"
                   />
+                  <p>Photo by Azay</p>
                 </Col>
               </Row>
             </Container>
@@ -89,13 +91,15 @@ function Dormouse() {
             <h4>Kaip atpazinti</h4>
             <p>{Dormouse.Characteristics}</p>
 
+            <h4>Kaip galima padėti?</h4>
+            <p>{Dormouse.Help}</p>
 
-
-            <h4>Possible sighting locations</h4>
+            <h4>Galimos pastebėjimo vietos</h4>
           </div>
           <img
+                      style={{ filter: 'contrast(150%)' }}
             src={Dormouse.Sightings}
-            alt="possible sightings of the Lynx"
+            alt="possible sightings of the Dormouse"
           />
 
         </>

@@ -11,17 +11,16 @@ function FirstSection() {
             <h3>Praplėsk žinias</h3>
             <img className='OwlImage' src={OwlImage} alt="Peleda"/> 
             {/* butinai pataisyk width sito img */}
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc mi ipsum faucibus vitae aliquet.</p>
+              <p>Nykstantys paukščiai Lietuvoje kelia nerimą dėl jų svarbos ekosistemoms ir žmonėms. Išsaugoti juos svarbu dėl biologinės įvairovės ir ekosistemų stabilumo.</p>
         </div>
 
         <div className='SecondFirstSectionCategory'>
             <img className='LynxImage' src={LynxImage} alt="Lūšis" />
               <div className='DescriptionContainer'>  
-                <h2>Dangaus stebėtojai</h2>
-                <h3>Praplėsk žinias</h3>
+                <h2>Miško sargai</h2>
+                <h3>Išsaugok įvairovę</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br></br><br></br>
-                    Ullamcorper a lacus vestibulum sed arcu non odio euismod.
+                  Žinduoliai Lietuvoje atlieka esminį vaidmenį ekosistemų išlaikyme ir teikia įvairių naudų, įskaitant gamtos reguliavimą, turizmo pritraukimą ir ekonominę vertę. Todėl jų apsauga ir išsaugojimas yra gyvybiškai svarbus Lietuvos biologinei įvairovei ir ekonomikai.
                   </p>
               </div>
         </div>
