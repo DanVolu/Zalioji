@@ -10,7 +10,7 @@ h5{
 
 
 .descriptionContainer {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(12, 12, 10, 0.488);
     color: white;
     padding: 2rem;
     margin-top: 1rem;
@@ -20,7 +20,11 @@ h5{
     transform: translateX(-50%);
 }
 
-
+.descriptionContainer img {
+    height: auto;
+    width: 7rem;
+    margin: 1rem;
+}
 
 
 
