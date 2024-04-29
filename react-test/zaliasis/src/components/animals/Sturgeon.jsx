@@ -53,6 +53,7 @@ function Sturgeon() {
             ) : (
                 <>
                     <div className="bookItemWrapper ">
+                    <p style={{color:"grey", marginBottom:"-2rem"}}>Norint išeiti iš kortelės reikia nuspausti gyvūno nuotrauką.</p>
 
                         <h3>{Sturgeon.Name}</h3>
                         <p className="Latin">(lot. Acipenser oxyrinchus)</p>

@@ -61,6 +61,7 @@ function EagleOwl() {
             ) : (
                 <>
                     <div className="bookItemWrapper ">
+                    <p style={{color:"grey", marginBottom:"-2rem"}}>Norint išeiti iš kortelės reikia nuspausti gyvūno nuotrauką.</p>
 
                         <h3>{EagleOwl.Name}</h3>
                         <p className="Latin">(lot. Gavia arctica)</p>

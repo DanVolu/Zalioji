@@ -35,7 +35,6 @@ function AtlanticSturgeon() {
         <div className={`animalClickable ${AtlanticSturgeon.Expanded ? 'expanded' : ''}`} onClick={toggleExpanded}>
             {!AtlanticSturgeon.Expanded ? (
                 <>
-
                     <div className="bookItemAlign">
                         <h2>{AtlanticSturgeon.Name}</h2>
                         <p>(lot. Acipenser sturio)</p>
@@ -53,7 +52,7 @@ function AtlanticSturgeon() {
             ) : (
                 <>
                     <div className="bookItemWrapper ">
-
+                    <p style={{color:"grey", marginBottom:"-2rem"}}>Norint išeiti iš kortelės reikia nuspausti gyvūno nuotrauką.</p>
                         <h3>{AtlanticSturgeon.Name}</h3>
                         <p className="Latin">(lot. Acipenser sturio)</p>
 

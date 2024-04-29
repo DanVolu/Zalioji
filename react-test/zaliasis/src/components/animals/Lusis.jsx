@@ -53,6 +53,7 @@ function Lusis() {
       ) : (
         <>
           <div className="bookItemWrapper">
+          <p style={{color:"grey", marginBottom:"-2rem"}}>Norint išeiti iš kortelės reikia nuspausti gyvūno nuotrauką.</p>
 
             <h3>{Lusis.Name}</h3>
             <p className="Latin">(lot. Lynx lynx)</p>
